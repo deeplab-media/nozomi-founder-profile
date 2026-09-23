@@ -12,3 +12,33 @@ body{font-size:16px}nav,.button,.text-link{font-size:14px}.eyebrow,.overline,.nu
 @media(max-width:1000px){.health-mosaic{grid-template-columns:1fr 1fr}.health-mosaic .health-main{grid-row:auto;grid-column:1/-1}.health-mosaic .health-main img{height:380px;min-height:0}.brand-row{gap:20px}.brand-row img{max-width:125px}}
 @media(max-width:700px){.japan-signature{margin-bottom:25px}.japan-signature small{font-size:9px;letter-spacing:1px}.japan-signature>span{font-size:32px}.seal{margin-right:10px;font-size:19px}.brand-history{padding:24px 20px}.brand-row{grid-template-columns:1fr 1fr;gap:26px;margin:25px 0}.brand-row img{height:42px}.health-mosaic{gap:22px 15px}.health-mosaic img{height:180px}.health-mosaic .health-main img{height:300px}.health-mosaic figcaption{font-size:13px}.health-mosaic figcaption span{font-size:9px}.vision:before{font-size:360px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Preview refinements: preserve full photo framing across layouts. */
+.company-switch a{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:175px;padding:25px;background:#fff;border:1px solid var(--line);border-bottom:3px solid transparent}
+.company-switch a[aria-current="location"]{border-bottom-color:var(--accent);box-shadow:0 10px 25px #203c3709}
+.company-switch a img.nozomi-company-logo{width:140px;height:85px;object-fit:contain}
+.business-intro figure img,.nozomi-photo-grid img,.health-mosaic img,.photos img,.company-photos img,.team-feature img{height:auto;max-height:520px;aspect-ratio:1.5;object-fit:contain;background:#e7ebe4}
+.nozomi-photo-grid img{height:100%;max-height:none;aspect-ratio:auto}
+.health-mosaic .health-main img{height:auto;min-height:0;aspect-ratio:1.2;object-fit:contain}
+.logistics-feature{display:grid;grid-template-columns:.78fr 1.22fr;gap:5%;align-items:center;margin:40px 0;padding:28px;background:#fffdf8;border:1px solid var(--line);border-left:4px solid #a83c36}
+.logistics-copy h4{font-size:clamp(23px,2.7vw,34px);line-height:1.4;margin-bottom:15px}
+.logistics-copy>p:not(.eyebrow){font-size:14px;line-height:1.8}
+.logistics-visuals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-self:stretch;align-content:center}
+.logistics-visuals figure{margin:0;background:#e4e5df;overflow:hidden}
+.logistics-visuals .logistics-main-image{grid-column:1/-1}
+.logistics-visuals img{width:100%;height:auto;aspect-ratio:1.5;object-fit:contain}
+.logistics-visuals .logistics-main-image img{aspect-ratio:1.72}
+.multisector-section{margin:14px 0 54px;padding:34px 28px 40px;background:#eeefe8;border-top:1px solid var(--line)}
+.multisector-heading{display:grid;grid-template-columns:1.1fr .9fr;gap:8%;align-items:end;margin-bottom:24px}
+.multisector-heading .eyebrow{margin-bottom:10px}
+.multisector-heading h3{font-size:clamp(22px,2.5vw,31px);line-height:1.4}
+.multisector-intro{max-width:430px;font-size:12px;line-height:1.8}
+.multisector-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.multisector-card{min-width:0;background:#f9f8f3;border:1px solid #dfe1d8}
+.sector-image{aspect-ratio:1/1;background-image:url("assets/nozomi-multisector-contact-sheet.jpg");background-repeat:no-repeat;background-size:300% 200%}
+.sector-care{background-position:0 0}.sector-hospitality{background-position:50% 0}.sector-food{background-position:100% 0}.sector-manufacturing{background-position:0 100%}.sector-agriculture{background-position:50% 100%}.sector-business{background-position:100% 100%}
+.multisector-card figcaption{display:block;padding:12px 14px 14px}
+.multisector-card b{display:block;font-size:12px;line-height:1.5}
+.multisector-card span{display:block;margin-top:4px;color:var(--muted);font-size:10px;line-height:1.6}
+.business-chapter{scroll-margin-top:105px}
+@media(max-width:700px){.company-switch a{min-height:135px;padding:16px 10px;gap:12px}.company-switch a img.nozomi-company-logo{width:95px;height:65px}.logistics-feature{grid-template-columns:1fr;gap:18px;padding:20px}.logistics-copy h4{font-size:25px}.logistics-visuals{gap:9px}.logistics-visuals img{aspect-ratio:1.35}.logistics-visuals .logistics-main-image img{aspect-ratio:1.5}.multisector-section{margin:0 0 42px;padding:26px 16px 28px}.multisector-heading{grid-template-columns:1fr;gap:8px;margin-bottom:18px}.multisector-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.multisector-card figcaption{padding:10px}.multisector-card b{font-size:11px}.multisector-card span{font-size:9px}.nozomi-photo-grid img{height:100%}}

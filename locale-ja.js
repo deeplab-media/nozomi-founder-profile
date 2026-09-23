@@ -52,15 +52,23 @@
     ['.hero .intro', '30年以上にわたり、日本とベトナムの企業、人材、そして地域をつなぎ、新たな価値を築いてきました。'],
     ['.hero .button', '歩みをたどる <span>↗</span>'],
     ['.hero-facts>div:first-child small', '経験年数'],
+    ['.hero-facts>div:last-child strong', 'ベトナム — 日本'],
     ['.hero-facts>div:last-child small', '貿易 · 人材 · 健康'],
-    ['.hero-bottom', '国際貿易　　人材育成　　日越連携　　スクロールしてご覧ください ↓'],
-    ['.story h2', '大きな vision。<br>人から<br><em>始まる。</em>'],
+    ['.brand-portrait>span', 'トゥオン・ハイ<br>創業者プロフィール'],
+    ['.portrait-label>span', 'グエン・ティ・トゥオン・ハイ'],
+    ['.portrait-label small', '創業者・代表<br>NOZOMI · ENMUSUBI'],
+    ['.art-note', '人と人をつなぐ。<br>可能性をひらく。'],
+    ['.hero-bottom span:nth-child(1)', '国際貿易'],
+    ['.hero-bottom span:nth-child(2)', '人材育成'],
+    ['.hero-bottom span:nth-child(3)', '日越連携'],
+    ['.hero-bottom a', 'スクロールしてご覧ください ↓'],
+    ['.story h2', '大きなビジョン<br>人から<br><em>始まる</em>'],
     ['.story-copy .lead', '国際貿易のプロジェクトから、若者の未来を拓く取り組みまで。'],
     ['.story-copy>p:nth-of-type(2)', 'グエン・ティ・トゥオン・ハイ氏は、NOZOMI人材育成・キャリア支援会社およびENMUSUBI株式会社の創業者・代表です。30年以上にわたる国際貿易、投資促進、人材育成の経験を基盤に、日越両国の架け橋として活動しています。'],
     ['.story-copy>p:nth-of-type(3)', '人材育成に取り組む以前から、工業、物流、縫製、素材分野における国際協力プロジェクトに携わってきました。日本企業との経験を、実践的な日本語、技能、仕事の姿勢を備えた人材の育成に生かしています。'],
     ['.story-copy blockquote', '「日本を出発点に、NOZOMIの歩みを始めました。」<cite>グエン・ティ・トゥオン・ハイ</cite>'],
     ['#cau-chuyen .eyebrow', '創業者プロフィール'],
-    ['#dau-an .section-title h2', 'つながりが<br><em>価値を生む。</em>'],
+    ['#dau-an .section-title h2', 'つながりが<br><em>価値を生む</em>'],
     ['#dau-an .section-title>p', '一つの協力関係から、長く続く価値へ。ハイ氏の歩みを形づくる代表的な分野をご紹介します。'],
     ['.brand-history>p', 'これまでの歩みに関わる企業'],
     ['.brand-history small', 'キャリア資料で紹介されているプロジェクトや事業に関係する企業です。'],
@@ -78,21 +86,44 @@
     ['.legacy-grid article:nth-child(5) p', 'ゴム、アカシアなどのベトナム産素材を、日本企業の建築・インテリア分野へつなぐ。'],
     ['.legacy-grid article:nth-child(6) h3', '若い世代に<br>新たな機会を'],
     ['.legacy-grid article:nth-child(6) p', '日本企業との経験を生かし、実践的な日本語、仕事の姿勢、職業能力を備えた若者の育成に取り組んでいます。'],
-    ['#he-sinh-thai .section-title h2', '二つの企業。<br><em>一つの日越の未来。</em>'],
+    ['.legacy-grid article:nth-child(2) .names', 'フーミー火力発電所'],
+    ['.legacy-grid article:nth-child(3) .names', 'ベトティエン · 日本のサプライチェーン'],
+    ['.legacy-grid article:nth-child(5) .names', 'Panasonic · Sumitomo<br>Ichijo Komuten · Daiken'],
+    ['.legacy-grid article:nth-child(6) .names', '教育 · 文化 · キャリア'],
+    ['#he-sinh-thai .section-title h2', '二つの企業<br><em>一つの日越の未来</em>'],
     ['#he-sinh-thai .section-title>div>.jp-heading', '二つの企業、一つのつながる未来。'],
     ['#he-sinh-thai .section-title>div+ p', 'NOZOMIは質の高い人材を育成し、ENMUSUBIは企業連携と予防的ヘルスケアを通じて日越をつなぎます。それぞれ異なる事業を展開し、グエン・ティ・トゥオン・ハイ氏が創業しました。'],
-    ['.company-switch a:first-child>span:last-child', '01 / 人材育成・キャリア支援<small>日本語教育・人材育成</small>'],
-    ['.company-switch a:last-child>span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
+    ['.company-switch a:first-child span', '01 / 人材育成・キャリア支援<small>日本語教育・人材育成</small>'],
+    ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
     ['.chapter-hint', 'スクロールして各事業をご覧ください ↓'],
     ['#nozomi .business-intro .eyebrow', 'NOZOMI / 人材育成・キャリア支援'],
     ['#enmusubi .business-intro .eyebrow', 'ENMUSUBI / 日越連携・ヘルスケア'],
-    ['#nozomi .business-intro h3', '日本語を学び、<br>日本の仕事を知り、<br><em>未来をつくる。</em>'],
+    ['#nozomi .business-intro h3', '日本語を学び、<br>日本の仕事を知り、<br><em>未来をつくる</em>'],
     ['#nozomi .business-intro .jp-heading', '日本語と日本の仕事の姿勢を学び、未来へ。'],
     ['#nozomi .business-intro>div>p:not(.eyebrow):not(.jp-heading)', 'NOZOMIは、日本およびベトナムの日系企業に向けて質の高い人材を育成します。仕事で使える日本語、日本の文化と仕事の姿勢、実践的な職業技能を重視し、学習者の円滑な職場適応と長期的な成長を支えます。'],
     ['.nozomi-pillars li:nth-child(1)>span', '日本語センター<small>日本語センター</small>'],
     ['.nozomi-pillars li:nth-child(2)>span', '日本の文化・仕事の姿勢<small>日本の文化・仕事の姿勢</small>'],
     ['.nozomi-pillars li:nth-child(3)>span', '物流分野を中心とした人材連携<small>物流分野を中心とした人材連携</small>'],
-    ['.nozomi-gallery .subheading h3', '体験を通して<br>日本語と文化を学ぶ。'],
+    ['.logistics-copy .eyebrow', '重点分野 · 物流'],
+    ['.logistics-copy h4', '物流人材を育成<br><em>トラック運転手を中心に</em>'],
+    ['.logistics-copy>p:not(.eyebrow):not(.ai-disclosure)', 'NOZOMIは日本企業の物流分野に向けて、トラック運転手を中心とした人材の育成と連携を目指します。専門日本語、安全意識、職業技能を組み合わせた準備を行います。'],
+    ['.logistics-copy .ai-disclosure', '✦ AI生成イメージ · 実際の写真に更新予定'],
+    ['.logistics-feature figcaption', '日本の物流分野に向けたトラック運転手育成のイメージ · AI生成'],
+    ['.company-switch a:first-child>span', '01 / 人材育成・キャリア支援<small>日本語教育・人材育成</small>'],
+    ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
+    ['#dau-an .section-title .eyebrow', '02 / 主な実績'],
+    ['#he-sinh-thai .section-title .eyebrow', '03 / 事業と使命'],
+    ['#nozomi .nozomi-gallery .eyebrow', 'NOZOMI / 学びと体験'],
+    ['#nozomi .business-intro figcaption', 'NOZOMIの学習環境 · 提供資料より'],
+    ['#nozomi .nozomi-photo-grid img', 'NOZOMIの活動写真'],
+    ['#dau-an .brand-history .brand-row img', '関連プロジェクトの企業ロゴ'],
+    ['#cong-dong .video-thumb img', '地域医療支援プログラムの動画サムネイル'],
+    ['.japan .eyebrow', '日本 / 深いつながり'],
+    ['.japan>figure img', '東京を訪問するグエン・ティ・トゥオン・ハイ氏'],
+    ['.japan>div>figure img', '日本文化を体験するグエン・ティ・トゥオン・ハイ氏'],
+    ['.japan>div>figure figcaption', '日本での文化交流と歩み'],
+    ['.nozomi-gallery .subheading .eyebrow', 'NOZOMI / 学びと体験'],
+    ['.nozomi-gallery .subheading h3', '体験を通して<br>日本語と文化を学ぶ'],
     ['.nozomi-photo-grid figcaption', '学びと交流のひととき'],
     ['.nozomi-more summary', 'NOZOMIの活動写真をもっと見る ↓'],
     ['.values article:nth-child(1) b', '実践的な学び'],
@@ -103,7 +134,8 @@
     ['.values article:nth-child(3) p', '時間を守り、責任を持ち、仲間を尊重する。'],
     ['.values article:nth-child(4) b', '未来への準備'],
     ['.values article:nth-child(4) p', '自立し、新しい環境に適応し、成長する。'],
-    ['#nozomi .subheading h3', '渡日前に準備し、<br>自信を持って新生活へ。'],
+    ['#nozomi>.subheading .eyebrow', '育成ステップ'],
+    ['#nozomi>.subheading h3', '渡日前に準備し、<br>自信を持って新生活へ'],
     ['.roadmap article:nth-child(1) h4', '基礎'],
     ['.roadmap article:nth-child(1) p', '文字、発音、あいさつ、自主学習の方法を身につけます。'],
     ['.roadmap article:nth-child(2) h4', '日本語 N5'],
@@ -114,14 +146,17 @@
     ['.roadmap article:nth-child(4) p', 'N5・N4の復習、読解、会話の反応力を磨きます。'],
     ['.roadmap article:nth-child(5) h4', '渡航前準備'],
     ['.roadmap article:nth-child(5) p', '実用日本語、企業文化、日本での生活技能を学びます。'],
-    ['#nozomi .benefits h3', '力を見える化し、<br>企業と共に育てる。'],
+    ['#nozomi .benefits h3', '力を見える化し、<br>企業と共に育てる'],
     ['.benefits li:nth-child(1)', '日本語力と学習規律を定期的に評価し、進捗を確認。'],
     ['.benefits li:nth-child(2)', '職種や採用要件に応じて語彙と場面練習を調整。'],
     ['.benefits li:nth-child(3)', '5S、安全、チームワーク、報告・連絡・相談を実践。'],
     ['.benefits li:nth-child(4)', 'クラスやグループの状況を共有し、受け入れ準備を支援。'],
-    ['#enmusubi .business-intro h3', '専門性をつなぎ、<br><em>一人ひとりに寄り添う。</em>'],
+    ['#enmusubi .business-intro h3', '専門性をつなぎ、<br><em>一人ひとりに寄り添う</em>'],
     ['#enmusubi .business-intro>div>p:not(.eyebrow):not(.jp-heading)', 'グエン・ティ・トゥオン・ハイ氏が創業・運営するENMUSUBI株式会社は、予防的ヘルスケアと企業連携を通じてベトナムと日本をつなぎます。ご相談の受付から医療機関との連携、書類、通訳、日本滞在中のサポートまで一貫して支援します。'],
-    ['#enmusubi .text-link', 'ENMUSUBI公式サイト ↗'],
+    ['#enmusubi>.business-intro .text-link', 'ENMUSUBI公式サイト ↗'],
+    ['.partners article:first-child .text-link', '病院の詳細 ↗'],
+    ['.partners article:nth-child(2) .text-link', 'CellPro Japan公式サイト ↗'],
+    ['.partners article:nth-child(3) .text-link', 'AS Medical公式サイト ↗'],
     ['.enmusubi-scenes .eyebrow', '医療と健康をつなぐ取り組み'],
     ['#enmusubi .business-intro figcaption', '日本での医療連携を紹介する資料'],
     ['.enmusubi-pillars article:nth-child(1) b', '01 / 投資相談'],
@@ -130,7 +165,14 @@
     ['.enmusubi-pillars article:nth-child(2) p', '日本の医療機関と連携し、情報、書類、通訳、受診までの行程を支援します。'],
     ['.enmusubi-pillars article:nth-child(3) b', '03 / 日越連携'],
     ['.enmusubi-pillars article:nth-child(3) p', '相談窓口となり、パートナーとの調整からお客様への継続的な支援まで行います。'],
-    ['.enmusubi-scenes>.subheading h3', '最初のご相談から<br>日本でのサポートまで。'],
+    ['.enmusubi-scenes>.subheading h3', '最初のご相談から<br>日本でのサポートまで'],
+    ['#enmusubi>.subheading .eyebrow', '日本の医療連携先'],
+    ['#enmusubi>.subheading h3', 'ENMUSUBIと共に歩む<br>日本の医療機関'],
+    ['.product-feature .eyebrow', 'プログラム資料より'],
+    ['.product-feature .product-tag:last-child', 'ENMUSUBI 資料'],
+    ['.care-editorial .eyebrow', '一人ひとりに寄り添う'],
+    ['.care-editorial h3', '一つの窓口で<br>継続的なサポート'],
+    ['#enmusubi .care-editorial>div>p:not(.eyebrow)', 'ベトナムのお客様のご希望と日本の専門知識をつなぎ、安心して医療相談に臨めるよう準備をお手伝いします。'],
     ['.health-mosaic .health-main figcaption', '<span>01 / ご相談</span>医療専門家との連携'],
     ['.health-mosaic figure:nth-child(2) figcaption', '<span>02 / 基本プログラム</span>Medicacell Type-I'],
     ['.health-mosaic figure:nth-child(3) figcaption', '<span>03 / ケア</span>リハビリテーション'],
@@ -160,11 +202,11 @@
     ['#enmusubi .benefits li:nth-child(2)', '診察、滞在、医療ツーリズムの日程を調整。'],
     ['#enmusubi .benefits li:nth-child(3)', '職業訓練、人材、教育相談を連携。'],
     ['#enmusubi .benefits li:nth-child(4)', '日越双方の投資促進と企業連携を支援。'],
-    ['.care-editorial h3', '一つの窓口で。<br>途切れないサポートを。'],
+    ['.care-editorial h3', '一つの窓口で<br>途切れないサポート'],
     ['.care-editorial>div>p:not(.eyebrow)', 'ベトナムのお客様のご希望と日本の専門知識をつなぎ、安心して医療相談に臨めるよう準備をお手伝いします。'],
     ['.programs article:first-child h3', '予防的な<br>健康サポート'],
     ['.programs article:last-child h3', '一人ひとりに合わせた<br>専門プログラム'],
-    ['#cong-dong .section-title h2', '分かち合うことで<br><em>価値が広がる。</em>'],
+    ['#cong-dong .section-title h2', '分かち合うことで<br><em>価値が広がる</em>'],
     ['#cong-dong .section-title>div+ p', '企業活動に加え、地域の健康と子どもたちの安全を支える活動にも取り組んでいます。'],
     ['#cong-dong .eyebrow', '地域と共に'],
     ['.community-grid article:first-child .num', '01 / 地域の健康支援'],
@@ -177,16 +219,15 @@
     ['.community-grid article:first-child>p', '医療相談・診療と生活に困難を抱える方々への贈り物を無償で提供し、地域に医療を届ける活動です。'],
     ['.community-grid article:last-child h3', 'いのちを守る<br>学びの場'],
     ['.community-grid article:last-child>p', '小中学生を対象とした応急手当の教育プログラムです。日常の緊急時に自ら行動できる知識と技能を学びます。'],
-    ['.vision h2', '「一人ひとりの力が<br>健やかな社会と<br><em>強いチームをつくる。」</em>'],
+    ['.vision h2', '一人ひとりの力が<br>健やかな社会と<br><em>強いチームをつくる</em>'],
     ['.vision>p:not(.eyebrow)', 'キャリア形成、技能向上、学びへの投資を通じて、若者の未来と健康な社会づくりに貢献します。'],
     ['.vision .eyebrow', '創業者の想い'],
-    ['.japan h2', '日本を知り、<br><em>人と人をつなぐ。</em>'],
+    ['.japan h2', '日本を知り、<br><em>人と人をつなぐ</em>'],
     ['.japan>div>p:not(.eyebrow):not(.jp-heading)', '日本はハイ氏がNOZOMIを始めた場所です。人々、文化、働く環境との深いつながりが、日越の人材育成への想いにつながっています。'],
     ['.japan>div>figure figcaption', '日本での文化交流と歩み'],
-    ['.dg-legacy h2', '歩みの一頁。<br><em>ドゥンザンとDG Nozomi。</em>'],
-    ['.dg-legacy>p', 'ドゥンザンおよびDG Nozomiは、グエン・ティ・トゥオン・ハイ氏の歩みの一部です。国際貿易と日越協力に携わった歴史を簡潔にご紹介します。'],
-    ['.dg-legacy .eyebrow', 'これまでの歩みの一頁'],
-    ['#lien-he h2', '今日つながり、<br><em>明日をつくる。</em>'],
+        ['#lien-he h2', '今日つながり、<br><em>明日をつくる</em>'],
+    ['#lien-he .eyebrow', '06 / 新たな機会を共に'],
+    ['#lien-he .jp-heading', '今日のつながりから、明日を創る。'],
     ['#lien-he>div:first-child>p:last-child', '人材育成、予防的ヘルスケア、日越企業連携についてお問い合わせください。'],
     ['#lien-he .contact-list article:first-child h3', 'NOZOMI 人材育成'],
     ['#lien-he .contact-list article:last-child h3', 'ENMUSUBI 日越連携'],
@@ -194,17 +235,107 @@
     ['#lien-he .contact-list article:last-child>p', 'クエン · ご相談・連携'],
     ['footer>span', 'グエン・ティ・トゥオン・ハイ <small>創業者プロフィール / 2026</small>'],
     ['.source-note', '提供資料をもとに編集しています。詳しい内容は関係機関へご確認ください。'],
-    ['footer>a', 'ページ上部へ ↑'],
-    ['.motion', 'アニメーションを一時停止']
+    ['footer>a', 'ページ上部へ ↑']
+    ,['.japan-signature small', '人と人をつなぎ、共に成長する']
+    ,['.brand span', 'トゥオン・ハイ<br>創業者プロフィール']
+    ,['.hero-art .portrait img', 'NOZOMIとENMUSUBIの創業者、グエン・ティ・トゥオン・ハイ氏']
+    ,['.business-intro figure img', 'NOZOMIの学習環境']
+    ,['#enmusubi .business-intro figure img', 'ENMUSUBIの医療連携資料']
+    ,['.health-mosaic img', '日本での医療相談・連携に関する資料']
+    ,['.product-feature img', 'ENMUSUBI資料掲載のMedicacell Type-I']
+    ,['.care-editorial img', '日本の医療相談とケアを結ぶイメージ']
+    ,['.community-grid .video-thumb img', '地域医療支援プログラムの動画サムネイル']
+    ,['.japan .jp-heading', '文化を理解し、人をつなぐ']
+    ,['#lien-he .contact-list article:last-child>p', 'クエン · ご相談・連携']
+    ,['.vision>span', 'グエン・ティ・トゥオン・ハイ']
+    ,['.japan-signature small', '人と人をつなぎ、共に成長する']
+    ,['.business-chapter>.business-intro .eyebrow', '日越をつなぐ事業']
+    ,['#nozomi>.business-intro .eyebrow', 'NOZOMI / 人材育成・キャリア支援']
+    ,['#enmusubi>.business-intro .eyebrow', 'ENMUSUBI / 日越連携・ヘルスケア']
+    ,['#enmusubi .business-intro figcaption', '医療連携に関する資料']
+    ,['.health-mosaic img', '日本での医療相談・連携に関する資料']
+    ,['.care-editorial img', '日本の医療相談とケアを結ぶイメージ']
+    ,['.hero-art .portrait img', 'NOZOMIとENMUSUBIの創業者、グエン・ティ・トゥオン・ハイ氏']
+    ,['.business-intro figure img', 'NOZOMIの学習環境']
+    ,['#enmusubi .business-intro figure img', 'ENMUSUBIの医療連携資料']
+    ,['.product-feature img', 'ENMUSUBI資料掲載のMedicacell Type-I']
+    ,['.community-grid .video-thumb img', '地域医療支援プログラムの動画サムネイル']
+    ,['#lien-he .contact-list article:first-child>p', 'ホーチミン市カットライ区63番通り21番地']
+    ,['.vision>p:not(.eyebrow)', '職業訓練や技能向上、学びへの投資を通じて、若者の未来と健康な社会づくりに貢献します。']
+    ,['.hero-bottom span:nth-child(1)', '国際貿易']
+    ,['.hero-bottom span:nth-child(2)', '人材育成']
+    ,['.hero-bottom span:nth-child(3)', '日越連携']
+    ,['.hero-bottom a', 'スクロールしてご覧ください ↓']
+    ,['.nozomi-gallery .subheading h3', '体験を通して<br>日本語と文化を学ぶ']
+    ,['.care-editorial h3', '一つの窓口で<br>途切れないサポート']
+    ,['.community-grid .reserved span', 'プログラム写真']
+    ,['.community-grid .reserved small', '資料を準備中']
+    ,['.community-grid article:first-child .video-link>span:nth-child(2)', '活動動画を見る<small>YouTube · 医療を地域の人々へ</small>']
+    ,['.japan figcaption', '日本での文化交流と歩み']
+    ,['footer>span', 'グエン・ティ・トゥオン・ハイ <small>創業者プロフィール / 2026</small>']
+    ,['.source-note', '提供資料をもとに編集しています。詳しい内容は関係機関へご確認ください。']
+    ,['#enmusubi .benefits h3', '一つの窓口で<br>多様な連携を支援']
+    ,['.logistics-feature img', 'AI生成イメージ：ベトナム人研修生が日本でトラック運転を学ぶ様子']
+    ,['.partners article:first-child img', '季朋会・王司病院のロゴ']
+    ,['.partners article:first-child small', '山口県']
+    ,['.partners article:nth-child(2) small', '神奈川県']
+    ,['.partners article:nth-child(3) small', '福岡県']
+    ,['.partners article:first-child .medical-logo+small', '医療法人社団 季朋会']
+    ,['.partners article:nth-child(2) img', 'CellPro Japanのロゴ']
+    ,['.partners article:nth-child(3) img', 'AS Medical Supportのロゴ']
+    ,['.brand-history .brand-row img', '関連プロジェクトの企業ロゴ']
+    ,['.contact>div>p:not(.eyebrow):not(.jp-heading)', '人材育成、予防的ヘルスケア、日越企業連携についてお問い合わせください。']
+    ,['.logistics-copy .eyebrow', '物流分野の人材育成']
+    ,['.logistics-copy h4', '物流を支える<br><em>人材を育成</em>']
+    ,['.logistics-copy>p:not(.eyebrow)', '専門用語を含む日本語、安全意識、実践的な業務スキルを身につけ、日本企業の物流現場で活躍できる人材を育成します。']
+    ,['.logistics-visuals img', '日本の物流分野における研修や輸送の様子']
+    ,['.values article:nth-child(1) b', '学びを実践につなげる']
+    ,['.values article:nth-child(1) p', '日本語を学習や日々の仕事で活用できる力を身につけます。']
+    ,['.values article:nth-child(2) b', '仕事につながる学び']
+    ,['.values article:nth-child(2) p', '職場での会話や実際の業務を想定した内容を学びます。']
+    ,['.values article:nth-child(3) b', '社会人としての姿勢']
+    ,['.values article:nth-child(3) p', '時間を守ることや責任感、周囲と協力する姿勢を身につけます。']
+    ,['.values article:nth-child(4) b', '次の一歩に向けて']
+    ,['.values article:nth-child(4) p', '新しい環境に適応し、長期的に成長するための基礎を整えます。']
+    ,['.multisector-heading .eyebrow', '多分野に広がる人材育成']
+    ,['.multisector-heading h3', '日本企業とともに<br><em>広がるキャリアの機会</em>']
+    ,['.multisector-intro', '介護、サービス、製造、農業など幅広い分野に向けて、日本語、職業技能、日本の職場で求められる姿勢を身につける機会を提供します。']
+    ,['.multisector-card:nth-child(1) b', '介護・健康支援']
+    ,['.multisector-card:nth-child(1) span', '介護技術と思いやりのあるコミュニケーションを学ぶ']
+    ,['.multisector-card:nth-child(2) b', '宿泊・サービス']
+    ,['.multisector-card:nth-child(2) span', 'おもてなしの心とチームで働く姿勢を身につける']
+    ,['.multisector-card:nth-child(3) b', '食品製造']
+    ,['.multisector-card:nth-child(3) span', '衛生、安全、製造工程に沿った作業を学ぶ']
+    ,['.multisector-card:nth-child(4) b', '製造・組立']
+    ,['.multisector-card:nth-child(4) span', '専門技能とチームワークを磨く']
+    ,['.multisector-card:nth-child(5) b', '先端農業']
+    ,['.multisector-card:nth-child(5) span', '新しい栽培環境で技術を学ぶ']
+    ,['.multisector-card:nth-child(6) b', '企業連携・調整']
+    ,['.multisector-card:nth-child(6) span', '異文化のチームで連携・調整する力を育てる']
   ];
   const originals = new Map();
+  const originalAttributes = new Map();
   const apply = (enabled) => {
     for (const [selector, japanese] of translations) {
       const elements = document.querySelectorAll(selector);
       elements.forEach((element) => {
-        if (!originals.has(element)) originals.set(element, element.innerHTML);
-        element.innerHTML = enabled ? japanese : originals.get(element);
+        if (!originals.has(element)) originals.set(element, element.tagName === 'IMG' ? element.alt : element.innerHTML);
+        if (element.tagName === 'IMG') element.alt = enabled ? japanese : originals.get(element);
+        else element.innerHTML = enabled ? japanese : originals.get(element);
       });
+    }
+    document.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach((heading) => {
+      heading.innerHTML = heading.innerHTML.replace(/[。.]([\s<])/g, '$1').replace(/[。.]$/, '');
+    });
+    const switcher = document.querySelector('.company-switch');
+    if (switcher) {
+      if (!originalAttributes.has(switcher)) originalAttributes.set(switcher, switcher.getAttribute('aria-label'));
+      switcher.setAttribute('aria-label', enabled ? '事業を選択' : originalAttributes.get(switcher));
+    }
+    const seal = document.querySelector('.seal');
+    if (seal) {
+      if (!originalAttributes.has(seal)) originalAttributes.set(seal, seal.getAttribute('aria-label'));
+      seal.setAttribute('aria-label', enabled ? '縁' : originalAttributes.get(seal));
     }
     document.documentElement.lang = enabled ? 'ja' : 'vi';
     button.setAttribute('aria-pressed', String(enabled));
