@@ -312,6 +312,14 @@
     ,['.multisector-card:nth-child(5) span', '新しい栽培環境で技術を学ぶ']
     ,['.multisector-card:nth-child(6) b', '企業連携・調整']
     ,['.multisector-card:nth-child(6) span', '異文化のチームで連携・調整する力を育てる']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(9) img', 'NOZOMIの職場で働くスタッフ']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(9) figcaption', 'NOZOMIの職場環境']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(10) img', 'ハイさんとNOZOMIのスタッフ']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(10) figcaption', 'ともに築くNOZOMIのコミュニティ']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(11) img', 'NOZOMIの学習環境でパソコンを使って実習する受講生']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(11) figcaption', '学習環境で実践的なスキルを身につける']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(12) img', '卒業の日に集まったNOZOMIの受講生とスタッフ']
+    ,['.nozomi-more .nozomi-photo-grid figure:nth-child(12) figcaption', 'NOZOMIの受講生とスタッフ']
   ];
   const originals = new Map();
   const originalAttributes = new Map();
