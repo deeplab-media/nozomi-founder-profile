@@ -30,7 +30,7 @@
     .enmusubi-pillars b{font-size:12px;letter-spacing:.08em;color:#a47c41}
     .enmusubi-pillars p{font-size:13px;line-height:1.7;margin:14px 0}
     .enmusubi-pillars small{font-size:11px;color:#7a7666}
-    @media(max-width:700px){.nozomi-pillars,.enmusubi-pillars{grid-template-columns:1fr}.nozomi-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:145px;gap:9px}.nozomi-photo-wide{grid-column:span 2;grid-row:span 1}.dg-legacy{grid-template-columns:1fr;gap:18px;padding:55px 6%}.language-toggle{font-size:12px;padding:8px 9px}}
+    @media(max-width:700px){.nozomi-pillars{grid-template-columns:1fr}.nozomi-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:145px;gap:9px}.nozomi-photo-wide{grid-column:span 2;grid-row:span 1}.dg-legacy{grid-template-columns:1fr;gap:18px;padding:55px 6%}.language-toggle{font-size:12px;padding:8px 9px}}
   `;
   document.head.append(style);
   const button = document.querySelector('.language-toggle');
@@ -70,26 +70,6 @@
     ['#cau-chuyen .eyebrow', '創業者プロフィール'],
     ['#dau-an .section-title h2', 'つながりが<br><em>価値を生む</em>'],
     ['#dau-an .section-title>p', '一つの協力関係から、長く続く価値へ。ハイ氏の歩みを形づくる代表的な分野をご紹介します。'],
-    ['.brand-history>p', 'これまでの歩みに関わる企業'],
-    ['.brand-history small', 'キャリア資料で紹介されているプロジェクトや事業に関係する企業です。'],
-    ['.legacy-grid .num', '実績と経験'],
-    ['#dau-an .source-note', '創業者から提供された資料をもとに編集しています。'],
-    ['.legacy-grid article:nth-child(1) h3', 'ベトナム市場への<br>新たな扉を開く'],
-    ['.legacy-grid article:nth-child(1) p', '日本企業のベトナムにおける商業活動を支援し、市場開拓、投資促進、国際協力を推進。'],
-    ['.legacy-grid article:nth-child(2) h3', '大規模プロジェクトを<br>つなぐ'],
-    ['.legacy-grid article:nth-child(2) p', 'フーミー火力発電所向け大型・重量設備の輸送に関わる物流事業者の商業活動を支援。'],
-    ['.legacy-grid article:nth-child(3) h3', '日本の基準を<br>ベトナムの製品へ'],
-    ['.legacy-grid article:nth-child(3) p', '日本からの高品質な縫製プロジェクトを展開し、ベトティエン社の形態安定シャツ開発を推進。'],
-    ['.legacy-grid article:nth-child(4) h3', '国際的な製造<br>ネットワークに参画'],
-    ['.legacy-grid article:nth-child(4) p', 'トヨタ車向けエアバッグ製造のベトナム展開や、レクサス車内装向けベトナム産ジュート素材の研究開発に携わる。'],
-    ['.legacy-grid article:nth-child(5) h3', 'ベトナム素材の<br>価値を高める'],
-    ['.legacy-grid article:nth-child(5) p', 'ゴム、アカシアなどのベトナム産素材を、日本企業の建築・インテリア分野へつなぐ。'],
-    ['.legacy-grid article:nth-child(6) h3', '若い世代に<br>新たな機会を'],
-    ['.legacy-grid article:nth-child(6) p', '日本企業との経験を生かし、実践的な日本語、仕事の姿勢、職業能力を備えた若者の育成に取り組んでいます。'],
-    ['.legacy-grid article:nth-child(2) .names', 'フーミー火力発電所'],
-    ['.legacy-grid article:nth-child(3) .names', 'ベトティエン · 日本のサプライチェーン'],
-    ['.legacy-grid article:nth-child(5) .names', 'Panasonic · Sumitomo<br>Ichijo Komuten · Daiken'],
-    ['.legacy-grid article:nth-child(6) .names', '教育 · 文化 · キャリア'],
     ['#he-sinh-thai .section-title h2', '二つの企業<br><em>一つの日越の未来</em>'],
     ['#he-sinh-thai .section-title>div>.jp-heading', '二つの企業、一つのつながる未来。'],
     ['#he-sinh-thai .section-title>div+ p', 'NOZOMIは質の高い人材を育成し、ENMUSUBIは企業連携と予防的ヘルスケアを通じて日越をつなぎます。それぞれ異なる事業を展開し、グエン・ティ・トゥオン・ハイ氏が創業しました。'],
@@ -105,10 +85,8 @@
     ['.nozomi-pillars li:nth-child(2)>span', '日本の文化・仕事の姿勢<small>日本の文化・仕事の姿勢</small>'],
     ['.nozomi-pillars li:nth-child(3)>span', '物流分野を中心とした人材連携<small>物流分野を中心とした人材連携</small>'],
     ['.logistics-copy .eyebrow', '重点分野 · 物流'],
-    ['.logistics-copy h4', '物流人材を育成<br><em>トラック運転手を中心に</em>'],
-    ['.logistics-copy>p:not(.eyebrow):not(.ai-disclosure)', 'NOZOMIは日本企業の物流分野に向けて、トラック運転手を中心とした人材の育成と連携を目指します。専門日本語、安全意識、職業技能を組み合わせた準備を行います。'],
-    ['.logistics-copy .ai-disclosure', '✦ AI生成イメージ · 実際の写真に更新予定'],
-    ['.logistics-feature figcaption', '日本の物流分野に向けたトラック運転手育成のイメージ · AI生成'],
+    ['.logistics-copy h4', '物流分野の人材を育成<br><em>現場で生きる力を</em>'],
+    ['.logistics-copy>p:not(.eyebrow):not(.ai-disclosure)', '専門用語、日本の仕事の姿勢、安全への意識、実践的な技能を身につけ、物流分野で長く活躍できる人材を育てます。'],
     ['.company-switch a:first-child>span', '01 / 人材育成・キャリア支援<small>日本語教育・人材育成</small>'],
     ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
     ['#dau-an .section-title .eyebrow', '02 / 主な実績'],
@@ -116,7 +94,6 @@
     ['#nozomi .nozomi-gallery .eyebrow', 'NOZOMI / 学びと体験'],
     ['#nozomi .business-intro figcaption', 'NOZOMIの学習環境 · 提供資料より'],
     ['#nozomi .nozomi-photo-grid img', 'NOZOMIの活動写真'],
-    ['#dau-an .brand-history .brand-row img', '関連プロジェクトの企業ロゴ'],
     ['#cong-dong .video-thumb img', '地域医療支援プログラムの動画サムネイル'],
     ['.japan .eyebrow', '日本 / 深いつながり'],
     ['.japan>figure img', '東京を訪問するグエン・ティ・トゥオン・ハイ氏'],
@@ -283,7 +260,6 @@
     ,['.partners article:first-child .medical-logo+small', '医療法人社団 季朋会']
     ,['.partners article:nth-child(2) img', 'CellPro Japanのロゴ']
     ,['.partners article:nth-child(3) img', 'AS Medical Supportのロゴ']
-    ,['.brand-history .brand-row img', '関連プロジェクトの企業ロゴ']
     ,['.contact>div>p:not(.eyebrow):not(.jp-heading)', '人材育成、予防的ヘルスケア、日越企業連携についてお問い合わせください。']
     ,['.logistics-copy .eyebrow', '物流分野の人材育成']
     ,['.logistics-copy h4', '物流を支える<br><em>人材を育成</em>']
@@ -320,6 +296,22 @@
     ,['.nozomi-more .nozomi-photo-grid figure:nth-child(11) figcaption', '学習環境で実践的なスキルを身につける']
     ,['.nozomi-more .nozomi-photo-grid figure:nth-child(12) img', '卒業の日に集まったNOZOMIの受講生とスタッフ']
     ,['.nozomi-more .nozomi-photo-grid figure:nth-child(12) figcaption', 'NOZOMIの受講生とスタッフ']
+
+    ,['.hero-promise', '日本への理解を礎に<br>日越の人材をつなぐ']
+    ,['.hero .intro', '30年以上にわたる日本市場での経験を生かし、人と企業が共に成長できる道を築いています。NOZOMIを人材育成の中心に据えています。']
+    ,['.overline', '創業者 · 日本市場と30年以上向き合う']
+    ,['.story-copy .lead', '日本市場への理解から、人材をつなぐ新たな取り組みへ。']
+    ,['.story-copy>p:nth-of-type(2)', '30年以上にわたり日本と関わる中で、企業が求める力と働く人の準備との間にある課題を見つめてきました。その想いからNOZOMIとENMUSUBIを創業。NOZOMIでは、語学、仕事の姿勢、日本文化、職場でのコミュニケーションを大切にした人材育成に取り組んでいます。']
+    ,['#dau-an .section-title .eyebrow', '02 / 経験の基盤']
+    ,['#dau-an .section-title h2', '経験を<br><em>未来へつなぐ</em>']
+    ,['#dau-an .section-title>p', '30年以上にわたる日本市場での経験を通じて、人、企業、そして両国の協力への理解を深めてきました。']
+    ,['.experience-compact .lead', '国際貿易と投資促進のプロジェクトに従事']
+    ,['.experience-fields', '<li>製造業</li><li>物流</li><li>縫製</li><li>素材</li>']
+    ,['.experience-compact>p:last-child', '多分野での経験を基盤に、NOZOMIは日本企業の実際のニーズに応える人材育成を目指しています。']
+    ,['.nozomi-brand-slogan', '日本で活躍する人材を育成 · NOZOMI']
+    ,['#nozomi .business-intro h3', '日本語と仕事の力を磨き<br><em>未来への一歩を</em>']
+    ,['.logistics-copy h4', '物流分野の人材を育成<br><em>現場で生きる力を</em>']
+    ,['.logistics-copy>p:not(.eyebrow):not(.ai-disclosure)', '専門用語、日本の仕事の姿勢、安全への意識、実践的な技能を身につけ、物流分野で長く活躍できる人材を育てます。']
   ];
   const originals = new Map();
   const originalAttributes = new Map();
@@ -351,4 +343,114 @@
     document.title = enabled ? 'グエン・ティ・トゥオン・ハイ | 日越をつなぐ' : 'Nguyễn Thị Tường Hải | Những kết nối tạo nên giá trị';
   };
   button.addEventListener('click', () => apply(button.getAttribute('aria-pressed') !== 'true'));
+})();
+
+/* Content additions for the founder profile and current service portfolio. */
+(() => {
+  const storyCopy = document.querySelector('#cau-chuyen .story-copy');
+  if (storyCopy) {
+    storyCopy.innerHTML = `<p class="lead">Từ thương mại quốc tế đến chiến lược kiến tạo cầu nối nhân lực</p><p class="story-p2">Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.</p><p class="story-p3">Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.</p><p class="story-p5">Tôi cùng cộng sự định vị NOZOMI sẽ là đối tác trực tiếp, cung cấp nguồn nhân lực đã được chuẩn hóa toàn diện cả về tay nghề lẫn thái độ. Chúng tôi tin rằng, sự đồng hành này sẽ giúp các doanh nghiệp Nhật Bản đang vận hành tại Việt Nam tối ưu được chi phí tuyển dụng, rút ngắn tối đa thời gian đào tạo hội nhập và loại bỏ hoàn toàn những rủi ro về xung đột văn hóa.</p>`;
+    const extra = [...storyCopy.querySelectorAll('.story-p3,.story-p5')];
+    const more = document.createElement('details');
+    more.className = 'story-more';
+    more.open = window.matchMedia('(min-width:701px)').matches;
+    const summary = document.createElement('summary');
+    summary.textContent = 'Xem thêm nền tảng và định hướng';
+    more.append(summary, ...extra);
+    storyCopy.append(more);
+  }
+  const enmusubi = document.querySelector('#enmusubi');
+  if (enmusubi) enmusubi.classList.add('compact-editorial');
+  const nozomiIntro = document.querySelector('#nozomi .business-intro>div');
+  if (nozomiIntro && !nozomiIntro.querySelector('.mission-note')) {
+    nozomiIntro.insertAdjacentHTML('beforeend', '<p class="mission-note">NOZOMI phát triển nguồn nhân lực bài bản dựa trên bốn trụ cột: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở; đồng thời mở rộng kết nối nhân sự với doanh nghiệp trong và ngoài nước</p>');
+  }
+  const experience = document.querySelector('#dau-an .experience-compact');
+  if (experience) {
+    experience.innerHTML = `<div class="experience-summary"><p class="lead">Các dự án thương mại quốc tế và xúc tiến đầu tư đã tạo nên nền tảng kết nối đa ngành</p><p>Hơn ba thập kỷ làm việc với thị trường Nhật Bản giúp bà Tường Hải tích lũy góc nhìn thực tế về doanh nghiệp, con người và hợp tác song phương</p></div><div class="experience-brands" aria-label="Một số thương hiệu và lĩnh vực từng hợp tác"><span class="experience-brand"><img src="assets/brand-toyota.svg" alt="Toyota"></span><span class="experience-brand"><img src="assets/brand-marubeni.svg" alt="Marubeni"></span><span class="experience-brand"><img src="assets/brand-itochu.svg" alt="Itochu"></span><span class="experience-brand"><img src="assets/brand-lexus.svg" alt="Lexus"></span></div><ul class="experience-fields"><li>Công nghiệp</li><li>Logistics</li><li>May mặc</li><li>Vật liệu</li></ul><p class="experience-note">Những trải nghiệm ấy trở thành nền tảng để NOZOMI chuẩn bị nguồn nhân lực phù hợp với yêu cầu thực tế của doanh nghiệp Nhật Bản</p>`;
+  }
+
+  const logistics = document.querySelector('#nozomi .logistics-feature');
+  if (logistics && !document.querySelector('#nozomi .workforce-service')) {
+    logistics.insertAdjacentHTML('afterend', `<section class="workforce-service" aria-labelledby="workforce-title"><div class="workforce-copy"><p class="eyebrow">DỊCH VỤ NHÂN SỰ LINH HOẠT</p><h3 id="workforce-title">Đúng người, đúng nơi<br><em>đúng nhịp phát triển</em></h3><p>NOZOMI đồng hành cùng người lao động trong suốt hành trình làm việc tại doanh nghiệp đối tác. Từ hồ sơ, đào tạo và sắp xếp vị trí đến hỗ trợ lương, thủ tục và kết nối hằng tháng, mọi bước được phối hợp rõ ràng để người lao động yên tâm phát triển và doanh nghiệp có thêm nguồn lực phù hợp</p><p class="workforce-note">Mô hình giúp doanh nghiệp bổ sung nhân sự nhanh chóng, đồng thời người lao động vẫn nhận được sự đồng hành ổn định từ NOZOMI trong quá trình làm việc</p></div><div class="workforce-gallery"><figure><img src="assets/nozomi-workforce-support.jpg" alt="NOZOMI tư vấn lộ trình làm việc cùng doanh nghiệp đối tác" loading="lazy"><figcaption>Tư vấn và chuẩn bị trước khi bắt đầu</figcaption></figure><figure><img src="assets/nozomi-workforce-welcome.jpg" alt="Nhân sự Việt Nam được chào đón tại doanh nghiệp đối tác Nhật Bản" loading="lazy"><figcaption>Đồng hành tại môi trường làm việc mới</figcaption></figure></div></section>`);
+  }
+
+  const health = document.querySelector('#enmusubi .health-mosaic');
+  if (health && !document.querySelector('#enmusubi .lab-gallery')) {
+    health.insertAdjacentHTML('afterend', `<section class="lab-gallery" aria-labelledby="lab-gallery-title"><div class="subheading"><p class="eyebrow">NGHIÊN CỨU & CÔNG NGHỆ Y SINH</p><h3 id="lab-gallery-title">Kết nối chuyên môn<br><em>từ phòng lab</em></h3></div><div class="lab-gallery-grid"><figure><img src="assets/enmusubi-lab-microscope.jpg" alt="Chuyên gia nghiên cứu mẫu trong phòng lab" loading="lazy"><figcaption>Nghiên cứu và phân tích mẫu</figcaption></figure><figure><img src="assets/enmusubi-lab-research.jpg" alt="Nhà nghiên cứu làm việc với kính hiển vi" loading="lazy"><figcaption>Công nghệ và quy trình chuyên môn</figcaption></figure><figure><img src="assets/enmusubi-lab-tubes.jpg" alt="Ống nghiệm và mẫu trong phòng thí nghiệm" loading="lazy"><figcaption>Kiểm soát mẫu trong môi trường chuẩn</figcaption></figure></div></section>`);
+  }
+
+  const community = document.querySelector('#cong-dong .community-grid article:nth-child(2) .reserved');
+  if (community) community.outerHTML = `<a class="video-link video-card" href="https://www.youtube.com/watch?v=244Ceer9o6g" target="_blank" rel="noopener"><span class="video-thumb"><img src="https://i.ytimg.com/vi/244Ceer9o6g/hqdefault.jpg" alt="Video chương trình Trạm Hành trang" loading="lazy"><i aria-hidden="true">▶</i></span><span>Xem video Trạm Hành trang<small>YouTube · Chương trình giáo dục kỹ năng</small></span><b aria-hidden="true">↗</b></a>`;
+
+  const makeDisclosure = (root, selector, className, label) => {
+    const first = root.querySelector(selector);
+    if (!first || first.parentElement?.classList.contains(className)) return;
+    const detail = document.createElement('details');
+    detail.className = className;
+    detail.open = window.matchMedia('(min-width:701px)').matches;
+    const summary = document.createElement('summary');
+    summary.textContent = label;
+    detail.append(summary);
+    const nodes = [];
+    let node = first;
+    while (node) { const next = node.nextElementSibling; nodes.push(node); node = next; }
+    detail.append(...nodes);
+    root.append(detail);
+  };
+  const makeSingleDisclosure = (root, selector, className, label) => {
+    const first = root.querySelector(selector);
+    if (!first || first.parentElement?.tagName === 'DETAILS') return;
+    const detail = document.createElement('details');
+    detail.className = className;
+    detail.open = window.matchMedia('(min-width:701px)').matches;
+    const summary = document.createElement('summary');
+    summary.textContent = label;
+    first.replaceWith(detail);
+    detail.append(summary, first);
+  };
+  const nozomi = document.querySelector('#nozomi');
+  if (nozomi) makeDisclosure(nozomi, '.values', 'learning-details', 'Xem lộ trình đào tạo');
+  if (enmusubi) makeSingleDisclosure(enmusubi, '.care-editorial', 'medical-details', 'Xem thêm hành trình chăm sóc');
+
+  const toggle = document.querySelector('.language-toggle');
+  if (toggle) {
+    const customOriginal = new Map();
+    const setNewJapanese = () => {
+      const ja = toggle.getAttribute('aria-pressed') === 'true';
+      const set = (selector, html) => { const node = document.querySelector(selector); if (!node) return; if (!customOriginal.has(node)) customOriginal.set(node, node.innerHTML); node.innerHTML = ja ? html : customOriginal.get(node); };
+      const setAlt = (selector, text) => { const node = document.querySelector(selector); if (!node) return; if (!customOriginal.has(node)) customOriginal.set(node, node.alt); node.alt = ja ? text : customOriginal.get(node); };
+      set('#dau-an .experience-summary .lead', '国際貿易と投資促進、多分野の経験を人材育成へ');
+      const setStory = (selector, vi, jaText) => { const node = document.querySelector(selector); if (node) node.innerHTML = ja ? jaText : vi; };
+      setStory('#cau-chuyen .story-p2', 'Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.', '私にとって、NOZOMI人材育成・キャリア支援会社とENMUSUBI株式会社の設立は、新しい方向への転換ではありません。30年以上にわたり日本市場と向き合う中で抱いた課題意識から生まれたものです。');
+      setStory('#cau-chuyen .story-p3', 'Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.', '国際貿易のプロジェクトづくりや投資促進に直接携わり、工業、物流、縫製、素材分野で経験を重ねてきました。そこから、現在の労働市場だけでは応えきれない、総合的な人材への大きな需要と厳しい要件を実感しました。');
+      setStory('#cau-chuyen .story-p4', 'Đây là cơ sở để tôi đặt định hướng phát triển cho thương hiệu NOZOMI với mục tiêu kiến tạo một đội ngũ nhân lực làm việc bài bản, dựa trên bốn trụ cột gắn kết chặt chẽ gồm: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng lại ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng đào tạo và cho thuê lại lao động trong nước.', 'これを基盤に、NOZOMIでは外国語、仕事の姿勢、日本文化、職場でのコミュニケーションという四つの柱を結び、確かな人材を育てる方向性を定めました。日本への人材送り出しにとどまらず、国内での人材育成と人材サービスにも広げています。');
+      setStory('#cau-chuyen .story-p5', 'Tôi cùng cộng sự định vị NOZOMI sẽ là đối tác trực tiếp, cung cấp nguồn nhân lực đã được chuẩn hóa toàn diện cả về tay nghề lẫn thái độ. Chúng tôi tin rằng, sự đồng hành này sẽ giúp các doanh nghiệp Nhật Bản đang vận hành tại Việt Nam tối ưu được chi phí tuyển dụng, rút ngắn tối đa thời gian đào tạo hội nhập và loại bỏ hoàn toàn những rủi ro về xung đột văn hóa.', '私たちはNOZOMIを、技能と姿勢の両面を備えた人材を企業へ直接届けるパートナーと位置づけています。ベトナムで活動する日本企業の採用コストを抑え、受け入れまでの時間を短縮し、文化の違いによる行き違いを減らすことを目指します。');
+      set('.story-more summary', '背景と方向性を詳しく見る');
+      set('#nozomi .mission-note', 'NOZOMIでは、外国語、仕事の姿勢、日本文化、職場でのコミュニケーションという四つの柱を基盤に人材を育成し、国内外の企業との人材連携へ広げています。');
+      set('#nozomi .learning-details summary', '人材育成のステップを見る');
+      set('#enmusubi .medical-details summary', '医療とケアの内容を詳しく見る');
+      set('#dau-an .experience-summary>p:last-child', '30年以上にわたる日本市場との仕事を通じ、人、企業、両国の協力に向き合ってきました。');
+      set('#dau-an .experience-fields', '<li>製造業</li><li>物流</li><li>縫製</li><li>素材</li>');
+      set('#dau-an .experience-note', '多分野で培った経験を、企業の実際のニーズに応えるNOZOMIの人材育成へ生かしています。');
+      set('#nozomi .workforce-service .eyebrow', '柔軟な人材サービス');
+      set('#workforce-title', '必要な場所に、必要な人を<br><em>安心できる仕組みで</em>');
+      set('#nozomi .workforce-copy>p:not(.eyebrow):not(.workforce-note)', 'NOZOMIは、提携企業で働く人材の採用、研修、配属、給与や手続きの支援まで一貫して伴走します。働く人が安心して力を発揮し、企業が必要な人材を迎えられるよう、毎月の連携を丁寧に整えます。');
+      set('#nozomi .workforce-note', '企業には柔軟な人材体制を、働く人には継続的な相談先を提供する仕組みです。');
+      set('#nozomi .workforce-gallery figure:nth-child(1) figcaption', '開始前の相談と準備');
+      set('#nozomi .workforce-gallery figure:nth-child(2) figcaption', '新しい職場でのスタート');
+      set('#enmusubi .lab-gallery .eyebrow', 'バイオメディカル研究と技術');
+      set('#lab-gallery-title', '専門性をつなぐ<br><em>ラボから始まる連携</em>');
+      set('#enmusubi .lab-gallery-grid figure:nth-child(1) figcaption', '検体の研究と分析');
+      set('#enmusubi .lab-gallery-grid figure:nth-child(2) figcaption', '技術と専門プロセス');
+      set('#enmusubi .lab-gallery-grid figure:nth-child(3) figcaption', '標準環境での検体管理');
+      set('#cong-dong .community-grid article:nth-child(2) .video-card>span:nth-child(2)', 'トラム・ハインチャンの動画<small>YouTube · 学生向けスキル教育</small>');
+      setAlt('#nozomi .workforce-gallery figure:nth-child(1) img', 'NOZOMIが提携企業との仕事の道筋を相談する様子');
+      setAlt('#nozomi .workforce-gallery figure:nth-child(2) img', '日本の提携企業で迎えられるベトナム人材');
+      setAlt('#enmusubi .lab-gallery-grid figure:nth-child(1) img', '研究室で検体を分析する専門家');
+      setAlt('#enmusubi .lab-gallery-grid figure:nth-child(2) img', '顕微鏡で研究を行う研究者');
+      setAlt('#enmusubi .lab-gallery-grid figure:nth-child(3) img', '標準的な研究室で管理される検体');
+    };
+    toggle.addEventListener('click', setNewJapanese);
+  }
 })();
