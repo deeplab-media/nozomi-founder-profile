@@ -76,3 +76,680 @@ p,li,figcaption{font-weight:300}
 .company-switch.chapter-nav a img.nozomi-company-logo{width:230px;height:110px}
 .company-switch.chapter-nav a:nth-child(2) img{width:210px;height:96px}
 @media(max-width:700px){.company-switch.chapter-nav a{min-height:116px}.company-switch.chapter-nav a img{width:150px;height:62px}.company-switch.chapter-nav a img.nozomi-company-logo{width:170px;height:75px}.company-switch.chapter-nav a:nth-child(2) img{width:150px;height:62px}}
+
+.experience-compact{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px 28px;align-items:center;padding:28px 34px;background:#23463e;color:#f4f0e7;border:1px solid rgba(255,255,255,.14)}
+.experience-summary .lead{margin:0 0 10px;color:#fff;font-size:19px;line-height:1.45}.experience-summary p:last-child{margin:0;color:#cbd8d0;font-size:14px;line-height:1.7}.experience-brands{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.experience-brand{width:78px;height:46px;display:grid;place-items:center;padding:7px;background:#fff;border:1px solid rgba(255,255,255,.25)}.experience-brand img{width:100%;height:100%;object-fit:contain}.experience-fields{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.experience-fields li{padding:6px 12px;border:1px solid rgba(255,255,255,.32);color:#f1d39a;font-size:12px}.experience-note{grid-column:1/-1;margin:0;color:#cbd8d0;font-size:14px;line-height:1.7}
+.workforce-service{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:34px;align-items:center;margin:48px 0;padding:42px;background:#edf0e9;border-top:1px solid #d7c9ad;border-bottom:1px solid #d7c9ad}.workforce-copy h3{margin:10px 0 18px;font-size:clamp(28px,4vw,48px);line-height:1.12;color:#183a34}.workforce-copy h3 em{color:#ad7c38}.workforce-copy>p:not(.eyebrow){color:#5c716e;line-height:1.75}.workforce-note{font-size:13px!important;color:#8a7450!important}.workforce-gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px}.workforce-gallery figure,.lab-gallery-grid figure{margin:0}.workforce-gallery img{width:100%;aspect-ratio:1.35;object-fit:cover;display:block}.workforce-gallery figcaption,.lab-gallery-grid figcaption{padding:10px 2px;color:#697a75;font-size:12px}.lab-gallery{margin:52px 0;padding:36px;background:#f2f3ef}.lab-gallery .subheading{margin-bottom:24px}.lab-gallery-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:14px}.lab-gallery-grid img{display:block;width:100%;height:190px;object-fit:cover}.lab-gallery-grid figure:first-child img{height:240px}
+@media(max-width:700px){.experience-compact{grid-template-columns:1fr;gap:16px;padding:22px 18px}.experience-brands{justify-content:flex-start}.experience-brand{width:68px;height:40px}.workforce-service{grid-template-columns:1fr;gap:24px;margin:34px 0;padding:26px 18px}.workforce-copy h3{font-size:30px}.workforce-gallery{gap:8px}.workforce-gallery img{aspect-ratio:1.1}.lab-gallery{margin:34px -2px;padding:24px 16px}.lab-gallery-grid{grid-template-columns:1fr 1fr;gap:9px}.lab-gallery-grid figure:first-child{grid-column:1/-1}.lab-gallery-grid img,.lab-gallery-grid figure:first-child img{height:150px}.lab-gallery-grid figure:first-child img{height:190px}}
+
+/* Nozomi brand and a compact founder career overview */
+.hero-promise{max-width:560px;margin:18px 0 8px;color:var(--ink);font-size:clamp(19px,2.05vw,28px);font-weight:600;line-height:1.45;letter-spacing:-.025em;text-wrap:balance}
+.experience-compact{max-width:900px;margin:0 auto;padding:24px 30px;background:#28483f;border:1px solid #456057}
+.experience-compact{overflow:hidden}
+.experience-brands{min-width:0;overflow:hidden;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.experience-brand{overflow:hidden;min-width:0;min-height:64px;padding:10px 12px}
+.experience-brand img{display:block;width:auto!important;height:auto!important;max-width:100%!important;max-height:100%!important;object-fit:contain;object-position:center}
+.experience-compact .lead{font-size:17px;color:#f4f3ed;margin-bottom:10px}
+.experience-compact>p:last-child{font-size:13px;color:#afbeb4;margin-top:10px}
+.experience-fields{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.experience-fields li{border:1px solid #63796f;color:#e2e6dc;padding:4px 12px;font-size:11px;letter-spacing:.04em}
+.nozomi-brand-slogan{width:min(100%,520px);height:auto;max-height:175px;object-fit:contain;object-position:left center;margin:4px 0 24px}
+.company-switch.chapter-nav a img.nozomi-company-logo{object-fit:contain;background:transparent}
+@media(max-width:700px){.hero-promise{font-size:20px;line-height:1.4;margin:15px 0 8px}.experience-compact{padding:20px 18px}.experience-compact .lead{font-size:15px}.experience-fields{gap:6px}.experience-fields li{font-size:10px;padding:4px 9px}.nozomi-brand-slogan{max-height:125px;margin-bottom:18px}.experience-brands{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.story-more{margin-top:18px;border-top:1px solid var(--line);padding-top:14px}
+.story-more summary{cursor:pointer;color:var(--accent);font-size:12px;letter-spacing:.04em;list-style:none}
+.story-more summary::-webkit-details-marker{display:none}
+.story-more summary::after{content:' ↓';font-size:14px}
+.story-more[open] summary::after{content:' ↑'}
+.story-more p{margin-top:16px}
+.mission-note{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;line-height:1.65}
+.learning-details,.medical-details{margin-top:34px}
+.learning-details>summary,.medical-details>summary{display:flex;align-items:center;justify-content:center;gap:12px;cursor:pointer;padding:15px 20px;border:1px solid var(--accent);background:#fff;color:var(--ink);font-size:13px;letter-spacing:.03em;transition:background .2s,color .2s}
+.learning-details>summary:hover,.medical-details>summary:hover{background:var(--ink);color:#fff}
+.learning-details>summary::-webkit-details-marker,.medical-details>summary::-webkit-details-marker{display:none}
+.learning-details>summary::after,.medical-details>summary::after{content:'＋';font-size:18px;line-height:1}
+.learning-details[open]>summary::after,.medical-details[open]>summary::after{content:'−'}
+.learning-details>.subheading:first-of-type,.medical-details>.subheading:first-of-type{margin-top:0}
+@media(max-width:700px){
+ .story-copy .lead{font-size:20px;line-height:1.42}
+ .story-copy>p,.story-more p{font-size:14px;line-height:1.68}
+ .story-more{margin-top:14px;padding-top:12px}
+ .story-more summary{font-size:11px}
+ .experience-compact{grid-template-columns:1fr}
+ .experience-brands{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .experience-brand{width:auto;height:42px;padding:6px}
+ .mission-note{font-size:12px;line-height:1.6}
+ .learning-details,.medical-details{margin-top:26px}
+ .learning-details>summary,.medical-details>summary{padding:13px 14px;font-size:12px;text-align:center}
+ .learning-details:not([open])> :not(summary),.medical-details:not([open])> :not(summary){display:none}
+}
+
+/* Mobile information density: keep hierarchy clear while reducing scroll fatigue */
+@media(max-width:700px){
+ .section{padding-top:46px;padding-bottom:46px}
+ .section-title{gap:18px;margin-bottom:24px}
+ .section-title>p{font-size:14px;line-height:1.65}
+ .business-intro{gap:20px}
+ .business-intro h3{font-size:28px;margin-bottom:14px}
+ .values,.partners{margin-top:30px;gap:14px}
+ .values p,.partners p{font-size:13px;line-height:1.55}
+ .subheading{margin-top:40px;margin-bottom:20px}
+ .roadmap{gap:14px}
+ .roadmap article{padding-top:14px}
+ .roadmap h4{margin:12px 0 7px}
+ .roadmap p{font-size:13px;line-height:1.55}
+ .photos{gap:18px}
+ .photos figcaption{font-size:14px;margin-top:10px}
+ .reserved{margin-top:20px}
+ .legacy-grid article{padding:22px}
+ .company-switch{margin-bottom:26px}
+}
+
+
+/* ENMUSUBI compact editorial layout */
+.compact-editorial .enmusubi-scenes{margin-bottom:28px}
+.compact-editorial .medical-partners{margin:30px 0;gap:14px}
+.compact-editorial .medical-partners article{padding:18px;min-height:0}
+.compact-editorial .medical-partners article p{font-size:13px;line-height:1.55;margin:10px 0}
+.compact-editorial .care-editorial{margin:26px 0;gap:24px;align-items:center}
+.compact-editorial .care-editorial figure{margin:0}
+.compact-editorial .care-editorial img{display:block;width:100%;aspect-ratio:1.45;object-fit:cover}
+.compact-editorial .product-feature{margin:26px 0;padding:24px;gap:26px;align-items:center}
+.compact-editorial .product-feature figure{margin:0}
+.compact-editorial .product-feature figure img{display:block;width:100%;aspect-ratio:1.15;object-fit:contain}
+.compact-editorial .product-feature p{font-size:13px;line-height:1.6;margin:10px 0 14px}
+.compact-editorial .programs{margin:26px 0;gap:14px}
+.compact-editorial .programs article{padding:24px;min-height:0}
+.compact-editorial .programs article h3{font-size:clamp(24px,3vw,34px);margin:10px 0}
+.compact-editorial .programs article p{font-size:13px;line-height:1.55;margin:0}
+.compact-editorial>.benefits{margin:24px 0;padding:24px;display:grid;grid-template-columns:.7fr 1.3fr;gap:24px;align-items:start}
+.compact-editorial>.benefits h3{margin:0}
+.compact-editorial>.benefits ul{margin:0}
+@media(max-width:700px){
+ .compact-editorial .medical-partners{grid-template-columns:1fr;gap:10px}
+ .compact-editorial .medical-partners article{padding:16px}
+ .compact-editorial .care-editorial{grid-template-columns:1fr;gap:18px}
+ .compact-editorial .care-editorial img{aspect-ratio:1.25}
+ .compact-editorial .product-feature{grid-template-columns:1fr;padding:18px;gap:16px}
+ .compact-editorial .product-feature figure img{max-height:230px}
+ .compact-editorial .programs{grid-template-columns:1fr;gap:10px}
+ .compact-editorial .programs article{padding:20px}
+ .compact-editorial>.benefits{grid-template-columns:1fr;gap:12px;padding:20px}
+}
+
+/* ENMUSUBI mobile information rows: keep related cards visible side by side. */
+.enmusubi-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:42px}
+.enmusubi-pillars article{min-width:0;border-top:1px solid var(--line);padding:20px 0}
+.enmusubi-pillars article b{display:block;font-size:13px;letter-spacing:.06em;color:var(--accent)}
+.enmusubi-pillars article p{margin-top:10px;font-size:13px;line-height:1.6}
+.enmusubi-pillars article small{display:block;margin-top:14px;color:var(--muted);font-size:11px}
+@media(max-width:700px){
+ .enmusubi-pillars{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:26px}
+ .enmusubi-pillars article{padding:14px 8px}
+ .enmusubi-pillars article b{font-size:10px;line-height:1.45}
+ .enmusubi-pillars article p{font-size:11px;line-height:1.5;margin-top:7px}
+ .enmusubi-pillars article small{font-size:9px;line-height:1.35;margin-top:9px}
+ .compact-editorial .medical-partners{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+ .compact-editorial .medical-partners article{padding:12px 9px}
+ .compact-editorial .medical-partners article h4{font-size:15px;line-height:1.3}
+ .compact-editorial .medical-partners article p{font-size:10px;line-height:1.45}
+ .compact-editorial .programs{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .compact-editorial .programs article{padding:14px 11px}
+ .compact-editorial .programs article h3{font-size:18px;line-height:1.25}
+ .compact-editorial .programs article p{font-size:10px;line-height:1.45}
+ .community-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .community-grid article{padding:16px 12px}
+ .community-grid h3{font-size:20px;line-height:1.25}
+ .community-grid p{font-size:11px;line-height:1.5}
+ .community-grid .video-link{gap:8px;padding:10px;margin-top:14px;font-size:10px}
+ .community-grid .video-link small{font-size:9px}
+}
+
+/* Keep dense medical content readable on narrow screens. */
+.medical-logo{height:150px;display:flex;align-items:center;justify-content:center;gap:12px;border-bottom:1px solid var(--line);margin-bottom:14px;overflow:hidden}
+.medical-logo img{width:100%;height:100%;object-fit:contain!important}
+.medical-logo.ouji img{width:52%;height:100%}
+.medical-logo.ouji span{font-size:12px;line-height:1.45;text-align:center;color:#718078}
+.medical-logo.ouji span b{display:block;font-size:22px;color:#61756d}
+.enmusubi-pillars,.compact-editorial .medical-partners{display:flex;overflow-x:auto;gap:12px;scroll-snap-type:x mandatory;padding-bottom:8px}
+.enmusubi-pillars article,.compact-editorial .medical-partners article{flex:0 0 min(82vw,270px);scroll-snap-align:start}
+@media(max-width:700px){
+ .enmusubi-pillars,.compact-editorial .medical-partners{display:flex;gap:10px}
+ .enmusubi-pillars article,.compact-editorial .medical-partners article{flex-basis:220px}
+ .medical-logo{height:112px}
+ .medical-logo.ouji span{font-size:9px}
+ .medical-logo.ouji span b{font-size:17px}
+ .compact-editorial .programs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .compact-editorial .programs article{min-width:0}
+ .community-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .community-grid article{min-width:0}
+ .community-grid .video-link{display:grid;grid-template-columns:72px minmax(0,1fr) auto;align-items:center;gap:8px;min-width:0}
+ .community-grid .video-thumb{width:72px;height:60px;overflow:hidden}
+ .community-grid .video-thumb img{width:100%;height:100%;object-fit:cover}
+ .community-grid .video-link>span:nth-child(2){min-width:0;overflow-wrap:anywhere}
+}
+
+/* ==========================================================================
+   MOBILE — FINAL AUTHORITY (<=700px)
+   Earlier mobile blocks in this file and the CSS injected by locale-ja.js
+   override each other; new mobile fixes go HERE only. ID-scoped selectors
+   are intentional so these rules win over the injected <style>.
+   ========================================================================== */
+.chapter-mini{display:none}
+@media(max-width:700px){
+ html{scroll-padding-top:76px}
+ /* Header: slimmer bar, more room for content */
+ header{height:64px;padding:0 16px}
+ nav{top:64px;padding:18px 20px}
+ nav.open a{padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+ .brand-portrait{gap:10px}
+ .brand-portrait>img{width:38px;height:38px}
+ .brand-portrait>span{font-size:8px;padding-left:10px;letter-spacing:1px}
+ .language-toggle{padding:7px 9px;font-size:12px}
+ .section{padding-left:20px;padding-right:20px}
+
+ /* Company chapters: logo switch scrolls away normally; a slim fixed bar takes over */
+ .company-switch.chapter-nav{position:static;padding:0;margin-bottom:14px;background:none;backdrop-filter:none}
+ .company-switch.chapter-nav a{min-height:104px}
+ .business-chapter,.logistics-feature,.multisector-section{scroll-margin-top:120px}
+ .chapter-mini{display:grid;grid-template-columns:1fr 1fr;gap:6px;position:fixed;left:0;right:0;top:64px;z-index:19;padding:6px 16px;background:#f4f3edf2;backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transform:translateY(-110%);visibility:hidden;transition:transform .3s cubic-bezier(.16,1,.3,1),visibility 0s .3s}
+ .chapter-mini.show{transform:none;visibility:visible;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+ .chapter-mini a{display:flex;align-items:center;justify-content:center;gap:8px;height:36px;border:1px solid var(--line);background:#fffdf8;font-size:12px;font-weight:600;letter-spacing:.12em;color:var(--ink)}
+ .chapter-mini a b{font-size:10px;color:var(--accent);letter-spacing:0}
+ .chapter-mini a[aria-current]{background:var(--ink);border-color:var(--ink);color:#fff}
+ .chapter-mini a[aria-current] b{color:#d0ad75}
+ .scroll-meter{z-index:21}
+
+ /* Trim secondary copy that repeats nearby content */
+ .chapter-hint,.workforce-note,.mission-note{display:none}
+ .source-note{font-size:11px;line-height:1.6;margin-top:14px}
+
+ /* NOZOMI */
+ .workforce-service{padding:24px 18px}
+ .workforce-copy h3{font-size:27px;line-height:1.2}
+ .workforce-copy>p:not(.eyebrow){font-size:15px;line-height:1.7}
+ .multisector-section{padding:24px 16px}
+ .multisector-card b{font-size:13px}
+ .multisector-card span{font-size:12px}
+
+ /* Swipe rows (built by mobile.js): cards bleed to the screen edge, the
+    focused card is full strength, neighbours recede slightly. */
+ .m-swipe{--bleed:20px;display:flex!important;grid-template-columns:none!important;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px!important;margin-left:calc(var(--bleed)*-1)!important;margin-right:calc(var(--bleed)*-1)!important;padding:4px var(--bleed) 4px!important;scroll-padding-left:var(--bleed);scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+ .m-swipe::-webkit-scrollbar{display:none}
+ .m-swipe>*{flex:0 0 var(--card,80%)!important;min-width:0;scroll-snap-align:start;grid-column:auto!important;grid-row:auto!important;transition:transform .5s cubic-bezier(.22,.61,.36,1),opacity .5s}
+ .m-swipe>:not(.is-active){opacity:.55}
+ .m-dots{display:flex;justify-content:center;gap:2px;margin:8px 0 0}
+ .m-dots button{width:22px;height:18px;padding:0;border:0;background:none;display:grid;place-items:center}
+ .m-dots button:before{content:'';width:6px;height:6px;border-radius:3px;background:#c7cbc0;transition:width .35s cubic-bezier(.22,.61,.36,1),background .35s}
+ .m-dots button.on:before{width:20px;background:var(--accent)}
+
+ /* ENMUSUBI */
+ #enmusubi .enmusubi-pillars{margin-top:24px;margin-bottom:0}
+ #enmusubi .enmusubi-pillars article{padding:18px 16px}
+ #enmusubi .enmusubi-pillars article b{font-size:12px;line-height:1.5}
+ #enmusubi .enmusubi-pillars article p{font-size:14px;line-height:1.6;margin:10px 0}
+ #enmusubi .enmusubi-pillars article small{font-size:11px;margin-top:0}
+ #enmusubi .health-mosaic img,#enmusubi .health-mosaic .health-main img{height:auto;min-height:0;aspect-ratio:4/3;object-fit:contain}
+ #enmusubi .lab-gallery{margin:30px 0;padding:22px 16px}
+ #enmusubi .lab-gallery-grid img,#enmusubi .lab-gallery-grid figure:first-child img{height:auto;aspect-ratio:4/3}
+ #enmusubi .medical-partners{margin-top:0;margin-bottom:0}
+ #enmusubi .medical-partners article{padding:16px}
+ #enmusubi .medical-partners article h4{font-size:18px;line-height:1.3}
+ #enmusubi .medical-partners article p{font-size:13px;line-height:1.6}
+ #enmusubi .medical-logo{height:96px;margin-bottom:14px}
+ #enmusubi .medical-logo.ouji span{font-size:10px}
+ #enmusubi .medical-logo.ouji b{font-size:18px}
+ #enmusubi .programs{margin:22px 0 0}
+ #enmusubi .programs article{padding:20px 18px}
+ #enmusubi .programs article h3{font-size:21px;line-height:1.25}
+ #enmusubi .programs article p{font-size:13.5px;line-height:1.6}
+ #enmusubi .care-editorial{padding:18px;margin:20px 0}
+ #enmusubi .care-editorial h3{font-size:24px}
+ /* Product close-up: compact row instead of a full-screen card */
+ #enmusubi .product-feature{grid-template-columns:100px minmax(0,1fr);gap:14px;padding:14px;margin:22px 0;align-items:start}
+ #enmusubi .product-feature figure{padding:6px}
+ #enmusubi .product-feature figure img{height:auto;max-height:none;aspect-ratio:3/4}
+ #enmusubi .product-feature .eyebrow{font-size:10px;margin-bottom:4px}
+ #enmusubi .product-feature h3{font-size:20px;margin:0 0 4px}
+ #enmusubi .product-feature p:not(.eyebrow){font-size:12.5px;line-height:1.55;margin:4px 0 6px}
+ #enmusubi .product-tag{font-size:9px;padding:3px 7px;margin:4px 4px 0 0}
+
+ /* Japan: tall portrait capped so it doesn't fill a whole screen */
+ .japan>figure{max-width:280px}
+
+ /* Community: swipe row of video-first cards */
+ #cong-dong .community-grid article{display:flex;flex-direction:column;padding:0 0 18px;overflow:hidden}
+ #cong-dong .community-grid .video-link{order:-1;position:relative;display:block;margin:0 0 16px;padding:0;background:none}
+ #cong-dong .community-grid .video-thumb{width:100%;height:auto;aspect-ratio:16/9}
+ #cong-dong .community-grid .video-thumb img{width:100%;height:100%;object-fit:cover}
+ #cong-dong .community-grid .video-thumb i{width:50px;height:50px;font-size:16px;animation:play-pulse 2.4s ease-out infinite}
+ #cong-dong .community-grid .video-link>span:nth-child(2){position:absolute;left:0;right:0;bottom:0;padding:26px 14px 10px;background:linear-gradient(transparent,#10221fe6);color:#fff;font-size:12px;font-weight:600}
+ #cong-dong .community-grid .video-link small{display:none}
+ #cong-dong .community-grid .video-link>b{position:absolute;top:10px;right:10px;width:28px;height:28px;padding:0;display:grid;place-items:center;border-radius:50%;background:#fffdf8;color:var(--ink);font-size:12px}
+ #cong-dong .community-grid .num{margin:0 16px 6px}
+ #cong-dong .community-grid h3{margin:0 16px 8px;font-size:22px;line-height:1.2}
+ #cong-dong .community-grid p{margin:0 16px;font-size:13.5px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+}
+.m-dots{display:none}
+@media(max-width:700px){.m-dots{display:flex}}
+@keyframes play-pulse{0%{box-shadow:0 0 0 0 #fffdf8aa}70%{box-shadow:0 0 0 16px #fffdf800}100%{box-shadow:0 0 0 0 #fffdf800}}
+
+/* ==========================================================================
+   MOBILE — POLISH & MOTION (<=700px)
+   Buttons, rounded media, looping accents. Pairs with mobile.js.
+   ========================================================================== */
+.m-ticker,.m-fab{display:none}
+@media(max-width:700px){
+ *{-webkit-tap-highlight-color:transparent}
+ html.m-menu-open{overflow:hidden}
+ /* backdrop-filter would make the header the containing block of the fixed menu */
+ header{backdrop-filter:none;-webkit-backdrop-filter:none;background:#f4f3edfa}
+
+ /* ----- Header: pill language toggle + animated hamburger ----- */
+ header .language-toggle{height:34px;margin-left:auto;margin-right:4px;padding:0 13px;border:1px solid #1b332e2e;border-radius:999px;background:#fffdf8;font-size:12px;box-shadow:0 2px 10px -4px #203c3740}
+ header .language-toggle:active{transform:scale(.95)}
+ header .menu{position:relative;width:44px;height:44px;margin-right:-8px;padding:0;border-radius:50%;font-size:0;color:transparent}
+ header .menu:before,header .menu:after{content:'';position:absolute;right:11px;height:1.6px;border-radius:2px;background:var(--ink);transition:transform .5s cubic-bezier(.77,0,.18,1),width .5s cubic-bezier(.77,0,.18,1)}
+ header .menu:before{top:18px;width:22px}
+ header .menu:after{top:25px;width:14px}
+ header .menu[aria-expanded=true]:before{transform:translateY(3.5px) rotate(45deg)}
+ header .menu[aria-expanded=true]:after{width:22px;transform:translateY(-3.5px) rotate(-45deg)}
+
+ /* ----- Full-screen menu with staggered links ----- */
+ header #navigation{display:flex;position:fixed;top:64px;left:0;right:0;bottom:0;z-index:30;flex-direction:column;align-items:stretch;gap:0;padding:22px 24px 40px;overflow:hidden auto;background:#f4f3ed;border:0;counter-reset:m-nav;clip-path:inset(0 0 100% 0);visibility:hidden;transition:clip-path .6s cubic-bezier(.77,0,.18,1),visibility 0s .6s}
+ header #navigation.open{clip-path:inset(0);visibility:visible;transition:clip-path .6s cubic-bezier(.77,0,.18,1)}
+ header #navigation:after{content:'縁';position:absolute;right:-30px;bottom:-50px;font:280px/1 'Yu Mincho','Noto Serif JP',serif;color:#a83c360f;pointer-events:none}
+ header #navigation a{counter-increment:m-nav;display:flex;align-items:baseline;gap:16px;padding:17px 0;border-bottom:1px solid var(--line);font:700 27px/1.15 Manrope,'Be Vietnam Pro',sans-serif;letter-spacing:-.03em;color:var(--ink);opacity:0;transform:translateY(28px);transition:opacity .35s,transform .7s cubic-bezier(.22,1,.36,1)}
+ header #navigation a:before{content:counter(m-nav,decimal-leading-zero);font:600 11px/1 'Be Vietnam Pro',sans-serif;letter-spacing:.1em;color:var(--accent)}
+ header #navigation.open a{opacity:1;transform:none}
+ header #navigation.open a:nth-child(1){transition-delay:.18s}header #navigation.open a:nth-child(2){transition-delay:.23s}header #navigation.open a:nth-child(3){transition-delay:.28s}header #navigation.open a:nth-child(4){transition-delay:.33s}header #navigation.open a:nth-child(5){transition-delay:.38s}header #navigation.open a:nth-child(6){transition-delay:.43s}
+
+ /* ----- Hero ----- */
+ .hero{padding-left:20px;padding-right:20px}
+ .hero h1 span,.vision h2 em{background:linear-gradient(100deg,var(--g1) 20%,var(--g2) 50%,var(--g1) 80%) 0 0/250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:m-gold 6s linear infinite}
+ .hero h1 span{--g1:#a47c41;--g2:#dcbd84}
+ .vision h2 em{--g1:#d0ad75;--g2:#f6e2b8}
+ .japan-signature>span{animation:m-ink 5s ease-in-out infinite}
+ .hero .button{display:flex;width:100%;height:58px;align-items:center;justify-content:space-between;padding:0 7px 0 22px;border-radius:18px;font-size:15px;font-weight:600;position:relative;overflow:hidden;isolation:isolate;box-shadow:0 16px 30px -14px #203c37b0}
+ .hero .button span{width:44px;height:44px;display:grid;place-items:center;border-radius:13px;background:#ffffff1c;font-size:16px}
+ .hero .button:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(105deg,transparent 35%,#ffffff33 50%,transparent 65%);transform:translateX(-120%);animation:m-shine 4.5s cubic-bezier(.6,0,.3,1) 2.2s infinite}
+ .hero .button:active{transform:scale(.97)}
+ .hero-facts{gap:10px;margin-top:18px}
+ .hero-facts>div{flex:1;padding:14px 16px;border:1px solid #20383314;border-radius:16px;background:#fffdf8b8;backdrop-filter:blur(6px)}
+ .hero-facts>div+div{border-left:1px solid #20383314;padding-left:16px}
+ .portrait{border-radius:180px 180px 22px 22px;animation:m-float 7s ease-in-out infinite}
+ .hero-bottom{display:none!important}
+ .m-ticker{display:block;overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+ .m-ticker-track{display:flex;align-items:center;width:max-content;animation:m-marquee 24s linear infinite}
+ .m-ticker-words{grid-column:1/-1;margin:26px -20px 0;padding:15px 0;border-top:1px solid var(--line);background:#f4f3edc9}
+ .m-ticker-words span{padding:0 16px;font:600 11px/1 'Be Vietnam Pro',sans-serif;letter-spacing:.18em;white-space:nowrap;color:var(--ink)}
+ .m-ticker-words i{font-style:normal;font-size:10px;color:#a83c36}
+
+ /* ----- Partner logos: infinite marquee ----- */
+ .experience-compact:has(.m-ticker-brands) .experience-brands{display:none}
+ .m-ticker-brands{margin:0 -18px}
+ .m-ticker-brands .m-ticker-track{animation-duration:28s}
+ .m-ticker-brands span{width:104px;height:54px;margin-right:10px;padding:10px 14px;display:grid;place-items:center;border-radius:12px;background:#fff}
+ .m-ticker-brands img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+
+ /* ----- Chapter bar: segmented control with a sliding thumb ----- */
+ .chapter-mini{display:block;padding:8px 16px}
+ .cm-track{position:relative;display:grid;grid-template-columns:1fr 1fr;padding:4px;border-radius:14px;background:#e4e7de;box-shadow:inset 0 1px 3px #203c3718}
+ .cm-track i{position:absolute;top:4px;bottom:4px;left:4px;width:calc(50% - 4px);border-radius:10px;background:var(--ink);box-shadow:0 8px 18px -8px #203c37cc;transition:transform .55s cubic-bezier(.65,0,.2,1)}
+ .cm-track:has(a[data-chapter=enmusubi][aria-current]) i{transform:translateX(100%)}
+ .chapter-mini a{position:relative;z-index:1;height:36px;border:0;background:none;transition:color .4s}
+ .chapter-mini a[aria-current]{background:none;color:#fff}
+ .company-switch.chapter-nav a{border-radius:18px;border:1px solid var(--line);box-shadow:0 10px 24px -18px #203c3780}
+ .company-switch.chapter-nav a[aria-current]{border-color:#d9c59f;background:#f6eedd}
+
+ /* ----- Disclosure buttons: card-like with a rotating + chip ----- */
+ .learning-details>summary,.medical-details>summary,#nozomi .nozomi-more summary,#cau-chuyen .story-more summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;padding:8px 8px 8px 18px;border:1px solid var(--line);border-radius:16px;background:#fffdf8;color:var(--ink);font-size:14px;font-weight:600;letter-spacing:0;line-height:1.35;text-align:left;box-shadow:0 10px 22px -16px #203c3780;transition:transform .2s}
+ .learning-details>summary:hover,.medical-details>summary:hover{background:#fffdf8;color:var(--ink)}
+ .learning-details>summary:active,.medical-details>summary:active,#nozomi .nozomi-more summary:active,#cau-chuyen .story-more summary:active{transform:scale(.98)}
+ .learning-details>summary::after,.medical-details>summary::after,#nozomi .nozomi-more summary::after,#cau-chuyen .story-more summary::after{content:'+';flex:0 0 40px;height:40px;display:grid;place-items:center;border-radius:12px;background:var(--ink);color:#fff;font-size:22px;font-weight:300;line-height:1;transition:transform .5s cubic-bezier(.65,0,.2,1),background .3s}
+ .learning-details[open]>summary::after,.medical-details[open]>summary::after,#nozomi .nozomi-more[open] summary::after,#cau-chuyen .story-more[open] summary::after{content:'+';transform:rotate(135deg);background:var(--accent)}
+ #nozomi .nozomi-more{border:0;margin-top:14px}
+ #nozomi .nozomi-more summary{display:grid;grid-template-columns:1fr 40px}
+ #nozomi .nozomi-more summary span{display:block;grid-column:1;margin:3px 0 0;font-size:11px;font-weight:400;color:var(--muted)}
+ #nozomi .nozomi-more summary::after{grid-column:2;grid-row:1/span 2}
+ #nozomi .nozomi-more[open] .nozomi-photo-grid{padding-top:14px}
+ #cau-chuyen .story-more{border:0;padding-top:0}
+
+ /* ----- Link pills ----- */
+ .text-link{display:inline-flex;align-items:center;gap:8px;min-height:42px;margin-top:16px;padding:0 18px;border:1px solid #cfbc97;border-radius:999px;background:#fffdf8;color:var(--ink);font-size:13px;font-weight:600;transition:transform .2s}
+ .text-link:active{transform:scale(.96)}
+ #enmusubi .medical-partners .text-link{margin-top:auto;align-self:stretch;justify-content:center}
+
+ /* ----- Contact cards with real buttons ----- */
+ .contact-list article{margin-bottom:12px;padding:20px 18px;border:1px solid var(--line);border-radius:22px;background:#fffdf8d9;box-shadow:0 14px 30px -24px #203c37a0}
+ .contact-list a[href^=tel]{display:flex;align-items:center;justify-content:space-between;height:54px;margin-bottom:8px;padding:0 18px;border-radius:15px;background:var(--ink);color:#fff;font-size:17px;font-weight:600;letter-spacing:.02em}
+ .contact-list a[href^=mailto]{display:flex;align-items:center;height:48px;padding:0 18px;border:1px solid var(--line);border-radius:15px;background:#fff;font-size:14px}
+ .contact-list a:active{transform:scale(.98)}
+
+ /* ----- Floating contact button ----- */
+ .m-fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:25;display:flex;align-items:center;gap:10px;height:52px;padding:0 6px 0 20px;border-radius:999px;background:#203c37f2;backdrop-filter:blur(10px);color:#fff;font-size:14px;font-weight:600;box-shadow:0 18px 36px -12px #203c37c0;opacity:0;transform:translateY(150%) scale(.9);transition:transform .6s cubic-bezier(.22,1,.36,1),opacity .35s;pointer-events:none}
+ .m-fab.show{opacity:1;transform:none;pointer-events:auto}
+ .m-fab b{width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:var(--accent);font-size:14px;animation:m-pulse 2.6s ease-out infinite}
+ .m-fab.show:active{transform:scale(.95)}
+ html.m-menu-open .m-fab{opacity:0;pointer-events:none}
+
+ /* ----- Rounded media & cards ----- */
+ .business-intro figure,.logistics-visuals figure,.nozomi-photo-grid figure,.japan figure,.product-feature figure,.multisector-card,.care-editorial figure{border-radius:16px;overflow:hidden}
+ .business-intro figure img,.japan figure img,.care-editorial figure img{border-radius:16px}
+ .business-intro figure figcaption,.japan figure figcaption{padding:0 4px}
+ .workforce-gallery img,.health-mosaic img,.lab-gallery-grid img{border-radius:14px}
+ .enmusubi-pillars article,.medical-partners article,.programs article,.community-grid article{border-radius:18px}
+ #enmusubi .enmusubi-pillars article{border-top:0;box-shadow:inset 0 3px 0 #a83c36,0 14px 26px -22px #203c37a0}
+ .logistics-feature,.workforce-service,.multisector-section,.lab-gallery,.benefits,.experience-compact,.care-editorial,.product-feature,.nozomi-pillars li{border-radius:20px}
+ .logistics-feature{border:1px solid var(--line);box-shadow:inset 4px 0 0 #a83c36}
+ .nozomi-pillars li{border-top:0;box-shadow:inset 0 2px 0 #a47c41}
+ .japan>figure{border-radius:22px}
+
+ /* ----- Media loading & reveal ----- */
+ .m-loading{background:linear-gradient(100deg,#e3e6dd 30%,#f5f5f0 50%,#e3e6dd 70%) 0 0/300% 100%!important;animation:m-shimmer 1.3s linear infinite}
+ .m-fade{opacity:0;transition:opacity .7s ease,transform 1.6s cubic-bezier(.22,1,.36,1)}
+ .m-fade.is-ready{opacity:1}
+ .m-reveal{clip-path:inset(0 0 100% 0 round 16px);transition:clip-path 1.25s cubic-bezier(.77,0,.18,1)}
+ .m-reveal img{transform:scale(1.22);transition:transform 1.7s cubic-bezier(.22,1,.36,1),opacity .7s ease}
+ .m-reveal.in{clip-path:inset(0 0 0 0 round 16px)}
+ .m-reveal.in img{transform:none}
+ .m-reveal.done{clip-path:none}
+
+ /* ----- Autoplay dots fill like story progress ----- */
+ .m-dots.auto button.on:before{width:28px;background:#d6d9cd linear-gradient(var(--accent),var(--accent)) no-repeat 0 0/0% 100%;animation:m-fill var(--dur) linear forwards}
+ .m-dots.auto.paused button.on:before{animation:none;background-size:100% 100%}
+
+ /* ----- Vision: breathing kanji ----- */
+ .vision:before{color:#ffffff0b;animation:m-breathe 10s ease-in-out infinite}
+}
+@keyframes m-marquee{to{transform:translateX(-50%)}}
+@keyframes m-gold{to{background-position:-250% 0}}
+@keyframes m-shine{0%{transform:translateX(-120%)}45%,100%{transform:translateX(120%)}}
+@keyframes m-float{50%{transform:translateY(-9px)}}
+@keyframes m-ink{50%{text-shadow:0 0 18px #a83c3660;transform:scale(1.04)}}
+@keyframes m-shimmer{from{background-position:100% 0}to{background-position:0 0}}
+@keyframes m-fill{to{background-size:100% 100%}}
+@keyframes m-pulse{0%{box-shadow:0 0 0 0 #a47c41aa}70%{box-shadow:0 0 0 12px #a47c4100}100%{box-shadow:0 0 0 0 #a47c4100}}
+@keyframes m-breathe{50%{transform:translate(-50%,-50%) scale(1.08) rotate(4deg);color:#ffffff16}}
+
+/* ==========================================================================
+   TYPOGRAPHY — consistent Japanese on every device (Yu Mincho is Windows-only)
+   ========================================================================== */
+body{font-family:'Be Vietnam Pro',Vietnam,'Noto Sans JP','Hiragino Sans',Arial,sans-serif}
+h1,h2,h3,h4{font-family:Manrope,'Be Vietnam Pro',Vietnam,'Noto Sans JP','Hiragino Sans',Arial,sans-serif}
+html .jp-heading,html .seal,html .japan-signature>span,html .medical-logo.ouji span{font-family:'Noto Serif JP','Yu Mincho','Hiragino Mincho ProN',serif}
+html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3,html[lang=ja] h4{letter-spacing:0}
+
+/* ==========================================================================
+   MOBILE — ROUND 3 (<=700px): logo chapter bar, equal company cards,
+   continuous carousels, lighter scrolling.
+   ========================================================================== */
+@media(max-width:700px){
+ /* Company cards: identical size, logos in identical boxes */
+ .company-switch.chapter-nav{align-items:stretch;gap:10px}
+ .company-switch.chapter-nav a{height:158px;min-height:0;padding:14px 10px;gap:8px;justify-content:center}
+ .company-switch.chapter-nav a img,.company-switch.chapter-nav a img.nozomi-company-logo,.company-switch.chapter-nav a:nth-child(2) img{width:100%;height:80px;max-width:none;object-fit:contain}
+ .company-switch.chapter-nav span{display:block;min-height:34px;font-size:10px;line-height:1.45}
+
+ /* Chapter bar: both logos stay visible; white thumb slides under the active one */
+ .chapter-mini{background:#f4f3edf7;backdrop-filter:none;-webkit-backdrop-filter:none}
+ .cm-track i{background:#fff;box-shadow:0 4px 14px -4px #203c3740,0 0 0 1px #203c370d}
+ .chapter-mini a,.chapter-mini a[aria-current]{height:40px;display:flex;align-items:center;justify-content:center;color:inherit}
+ .chapter-mini a img{width:auto;height:22px;max-width:80%;object-fit:contain;filter:grayscale(1);opacity:.42;transition:filter .45s,opacity .45s,transform .45s cubic-bezier(.22,1,.36,1)}
+ .chapter-mini a[aria-current] img{filter:none;opacity:1;transform:scale(1.05)}
+
+ /* Continuous carousels: no snapping while drifting, every card at full strength */
+ .m-swipe.is-flowing{scroll-snap-type:none}
+ .m-swipe.m-flow>:not(.is-active){transform:none;opacity:1}
+
+ /* Content met while scrolling up appears without a wipe */
+ .m-reveal.instant,.m-reveal.instant img{transition:none}
+
+ /* Scroll performance: no live blur on fixed layers, compositor-only loops,
+    loops paused while their section is off screen */
+ .m-fab{backdrop-filter:none;background:#203c37}
+ .japan-signature>span{animation-name:m-ink2}
+ .vision:before{will-change:transform;animation-name:m-breathe2}
+ .m-idle,.m-idle *,.m-idle:before,.m-idle *:before,.m-idle *:after{animation-play-state:paused!important}
+}
+@keyframes m-ink2{50%{opacity:.62;transform:scale(1.05)}}
+@keyframes m-breathe2{50%{transform:translate(-50%,-50%) scale(1.08) rotate(4deg)}}
+/* Japanese line breaking: wrap at phrase boundaries, never inside a word */
+html[lang=ja] body{line-break:strict;word-break:auto-phrase}
+@media(max-width:700px){html[lang=ja] .hero-facts strong{font-size:16px;line-height:1.5;white-space:nowrap}}
+/* Loop copies exist only for the phone carousels */
+@media(min-width:701px){.m-clone{display:none!important}}
+
+/* ==========================================================================
+   MOBILE — ROUND 4 (<=700px): portrait-first hero, flash-free reveals,
+   line-by-line headings, photo card stack, full-bleed Japan, opening splash.
+   ========================================================================== */
+.m-stack-count{display:none}
+@media(max-width:700px){
+ /* ----- Hero: portrait leads so the founder is seen on first open ----- */
+ .hero{display:flex;flex-direction:column;padding-top:0}
+ .hero-copy{display:contents}
+ .hero-art{order:-1;min-height:0;margin:0 -20px;padding:20px 0 16px}
+ .hero .hero-art:before{width:88%}
+ .hero .portrait{width:63%;max-width:260px}
+ .hero .portrait-label{position:absolute;left:14px;right:14px;bottom:12px;padding:7px 8px;border-radius:14px;background:#203c37d9;backdrop-filter:blur(6px)}
+ .hero .portrait-label>span{display:none}
+ .hero .portrait-label small{font-size:10px;line-height:1.45;color:#e3ebe5}
+ .hero .art-note{display:block;right:18px;top:24px;font-size:9px;letter-spacing:.26em;opacity:.75}
+ .hero .japan-signature{position:absolute;top:22px;left:18px;z-index:3;flex-direction:column;align-items:center;gap:10px;margin:0}
+ .hero .japan-signature>span{border:0;padding:0;font-size:30px}
+ .hero .japan-signature small{writing-mode:vertical-rl;font-size:9px;letter-spacing:.26em}
+ .hero .eyebrow{justify-content:center;margin:2px 0 14px}
+ .hero .overline,.hero h1,.hero .hero-promise,.hero .intro{text-align:center}
+ .hero .overline{max-width:300px;margin:0 auto 8px}
+ .hero h1{font-size:46px;line-height:1.18}
+ .hero .hero-promise{margin:12px auto 4px;font-size:18px}
+ .hero .intro{margin:12px auto 22px;font-size:14px}
+
+ /* ----- Flash-free reveals: pre-hidden below the fold, shown on arrival ----- */
+ .m-pre{opacity:0;transform:translate3d(0,28px,0)}
+ .m-pre.m-in{opacity:1;transform:none;transition:opacity .75s ease var(--d,0ms),transform 1s cubic-bezier(.22,1,.36,1) var(--d,0ms)}
+ .m-pre.m-now{opacity:1;transform:none;transition:none}
+ .m-swipe>.m-pre-x{opacity:0;transform:translate3d(90px,0,0) scale(.94) rotate(1.5deg)}
+ .m-swipe>.m-pre-x.m-in{opacity:1;transform:none;transition:opacity .7s ease var(--d,0ms),transform 1s cubic-bezier(.22,1,.36,1) var(--d,0ms)}
+ .m-swipe:not(.m-flow)>.m-pre-x.m-in:not(.is-active){opacity:.55;transform:none}
+ .m-swipe>.m-pre-x.m-now{opacity:1;transform:none;transition:none}
+ .m-pre-seal{opacity:0}
+
+ /* ----- Headings: each line rises from behind a mask (top left open for diacritics) ----- */
+ .m-lines .m-line{display:block;clip-path:inset(-60% -20% -.2em -20%)}
+ .m-lines .m-line>span{display:block;transform:translate3d(0,112%,0);transition:transform 1.05s cubic-bezier(.22,1,.36,1) calc(var(--i)*110ms)}
+ .m-lines.m-in .m-line>span{transform:none}
+ .m-lines.m-now .m-line>span{transform:none;transition:none}
+
+ /* ----- NOZOMI activity photos: swipeable card stack ----- */
+ #nozomi .m-stack{display:block;position:relative;height:auto;aspect-ratio:4/3.1;margin:4px 8px 46px;touch-action:pan-y}
+ #nozomi .m-stack>figure{position:absolute;inset:0;margin:0;border-radius:20px;overflow:hidden;background:#e4e5df;box-shadow:0 22px 40px -24px #203c37b3;transform-origin:50% 100%;transform:translate3d(var(--dx,0px),calc(var(--depth,0)*15px),0) scale(calc(1 - var(--depth,0)*.055)) rotate(var(--rot,0deg));opacity:calc(3 - var(--depth,0));transition:transform .6s cubic-bezier(.22,1,.36,1),opacity .45s;user-select:none;-webkit-user-select:none}
+ #nozomi .m-stack>figure img{width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none}
+ #nozomi .m-stack>figure.is-dragging{transition:none}
+ #nozomi .m-stack>figure.is-flying{transform:translate3d(var(--fx),-24px,0) rotate(var(--fr));opacity:0;transition:transform .42s cubic-bezier(.55,0,.8,.4),opacity .42s ease-in}
+ #nozomi .m-stack>figure.is-returning{transition:none}
+ #nozomi .m-stack figcaption{padding:44px 16px 14px;font-size:13px}
+ .m-stack-count{display:flex;align-items:center;justify-content:center;gap:10px;margin:-6px 0 14px;font:600 11px/1 'Be Vietnam Pro',sans-serif;letter-spacing:.14em;color:var(--muted)}
+ .m-stack-count b{font-size:13px;color:var(--ink)}
+ .m-stack-count i{width:28px;height:1px;background:var(--accent)}
+
+ /* ----- Japan: full-bleed photo, heading laid over the sky ----- */
+ .japan.section{display:block;position:relative;padding:0 0 44px}
+ .japan.section>figure{position:relative;max-width:none;height:92svh;max-height:760px;margin:0;border:0;border-radius:0;box-shadow:none}
+ .japan.section>figure img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:50% 72%;border-radius:0}
+ .japan.section>figure:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#fff 0%,#fffffff0 24%,#ffffffb8 38%,#fff0 56%,#fff0 82%,#fff 100%)}
+ .japan.section>figure:not(.m-reveal) img,.japan.section>figure.done img{animation:m-kenburns 18s ease-in-out infinite alternate}
+ .japan.section>div{padding:0 20px}
+ .japan-head{position:absolute;top:30px;left:20px;right:20px;z-index:2}
+ .japan-head .eyebrow{margin-bottom:12px}
+ .japan-head h2{font-size:33px;line-height:1.2}
+ .japan-head .jp-heading{margin:10px 0 0}
+ .japan.section>div>p{margin:6px 0 22px}
+}
+@keyframes m-kenburns{from{transform:scale(1)}to{transform:scale(1.1) translate3d(0,-2%,0)}}
+
+/* ----- Opening splash (phones, once per visit) ----- */
+html.m-intro body{overflow:hidden}
+html.m-intro body:before{content:'';position:fixed;inset:0;z-index:2000;background:#f4f3ed;animation:m-fallback .01s linear 3s forwards}
+@keyframes m-fallback{to{visibility:hidden}}
+.m-splash{position:fixed;inset:0;z-index:2001;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;background:#f4f3ed url('assets/japan-washi.jpg') center/cover;clip-path:inset(0);transition:clip-path .85s cubic-bezier(.77,0,.18,1)}
+.m-splash.out{clip-path:inset(0 0 100% 0)}
+.m-splash-kanji{font:400 132px/1 'Noto Serif JP','Yu Mincho',serif;color:#a83c36;animation:m-brush 1.1s cubic-bezier(.65,0,.35,1) .1s both}
+.m-splash-label{font:600 11px/1 'Be Vietnam Pro',sans-serif;letter-spacing:.32em;color:#203c37;animation:m-label .9s ease .55s both}
+.m-splash-line{width:120px;height:1px;background:#a47c41;transform-origin:left;animation:m-line 1.3s cubic-bezier(.65,0,.35,1) .2s both}
+.m-splash.out>*{opacity:0;transition:opacity .4s}
+@keyframes m-brush{from{clip-path:inset(0 0 100% 0);filter:blur(8px);transform:scale(1.08)}to{clip-path:inset(-10%);filter:blur(0);transform:none}}
+@keyframes m-label{from{opacity:0;letter-spacing:.6em}to{opacity:1;letter-spacing:.32em}}
+@keyframes m-line{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+/* ==========================================================================
+   FOUNDER PORTRAITS (all widths): story + philosophy photos
+   ========================================================================== */
+.story-portrait{max-width:380px;margin:30px 0 0;overflow:hidden;border-radius:6px;box-shadow:0 26px 50px -30px #203c3799}
+.story-portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%}
+.vision-portrait{display:block;width:118px;height:118px;margin:0 auto 26px;border-radius:50%;object-fit:cover;object-position:50% 22%;border:3px solid #d0ad75;box-shadow:0 0 0 9px #d0ad751f,0 20px 40px -18px #000c}
+.hero .portrait picture{display:block}
+
+/* ==========================================================================
+   MOBILE — ROUND 5 (<=700px): magazine-cover hero, calmer swipe rows
+   ========================================================================== */
+@media(max-width:700px){
+ /* Hero: full-width cover photo fading into the page, name overlapping it */
+ .hero .hero-art{margin:0 -20px -70px;padding:0;perspective:none}
+ .hero .hero-art:before,.hero .hero-art canvas{display:none}
+ .hero .portrait{width:100%;max-width:none;border:0;border-radius:0;background:#55585e;box-shadow:none;animation:none;transform:none}
+ .hero .portrait img{height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 14%;animation:m-cover 16s ease-in-out infinite alternate}
+ .hero .portrait{background:none;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 50%,#0009 70%,#0000 94%);mask-image:linear-gradient(180deg,#000 0%,#000 50%,#0009 70%,#0000 94%)}
+ .hero .portrait:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#1b332e33 0%,#0000 22%)}
+ .hero .portrait-label{display:none}
+ .hero .japan-signature{top:24px;left:18px}
+ .hero .japan-signature>span{color:#fff;text-shadow:0 2px 14px #0005}
+ .hero .japan-signature small{color:#ffffffc7}
+ .hero .art-note{color:#ffffffb3;top:24px;right:18px;opacity:1}
+ .hero .eyebrow,.hero .overline,.hero h1{position:relative;z-index:2}
+ .hero .eyebrow{margin-top:0}
+
+ /* Philosophy portrait and story photo sizing */
+ .story-portrait{max-width:none;margin:24px 0 4px;border-radius:20px}
+ .vision-portrait{width:104px;height:104px;margin-bottom:22px}
+
+ /* Continuous rows never snap: re-snapping on touch caused the jerk back */
+ .m-swipe.m-flow{scroll-snap-type:none}
+}
+@keyframes m-cover{from{transform:scale(1)}to{transform:scale(1.07)}}
+/* Swipe cards no longer scale: scaling around the centre pushed the incoming
+   card's edge past its snap point and pulled it back (the visible "jerk"). */
+@media(max-width:700px){.m-swipe>*{transition:opacity .45s ease}}
+
+/* ==========================================================================
+   MOBILE — ROUND 6: cleaner cover, premium stats card
+   ========================================================================== */
+@property --m-spin{syntax:'<angle>';inherits:false;initial-value:0deg}
+@media(max-width:700px){
+ .hero .japan-signature small,.hero .art-note{display:none}
+ /* Stats: one dark card, two columns split by a gold hairline, glowing border */
+ .hero .hero-facts{display:grid;grid-template-columns:1fr 1.3fr;gap:0;margin-top:18px;padding:20px 0;border:1px solid transparent;border-radius:22px;background:linear-gradient(135deg,#223f39,#1a302b) padding-box,conic-gradient(from var(--m-spin),#d0ad7514 0deg,#e9cf98 60deg,#d0ad7514 130deg,#d0ad7514 360deg) border-box;box-shadow:0 22px 40px -24px #1b332eb3;animation:m-spin 7s linear infinite}
+ .hero .hero-facts>div,.hero .hero-facts>div+div{padding:0 18px;border:0;border-radius:0;background:none;backdrop-filter:none;display:flex;flex-direction:column;justify-content:center}
+ .hero .hero-facts>div+div{border-left:1px solid #d0ad7540}
+ .hero .hero-facts>div:first-child strong{font:800 42px/1 Manrope,'Be Vietnam Pro',sans-serif;letter-spacing:-.03em;background:linear-gradient(100deg,#c9a466 20%,#f6e2b8 50%,#c9a466 80%) 0 0/250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:m-gold 6s linear infinite}
+ .hero .hero-facts>div:last-child strong{font:700 19px/1.25 Manrope,'Be Vietnam Pro','Noto Sans JP',sans-serif;letter-spacing:-.01em;color:#f4f3ed}
+ .hero .hero-facts small{display:block;margin-top:8px;font-size:10.5px;line-height:1.5;letter-spacing:.08em;text-transform:uppercase;color:#b8c7bc}
+ .hero .hero-facts>div:last-child small{letter-spacing:.02em;text-transform:none;font-size:11.5px}
+}
+@keyframes m-spin{to{--m-spin:360deg}}
+/* Stats card layout: number | flags + title, tags as a full-width footer */
+@media(max-width:700px){
+ .hero .hero-facts{grid-template-columns:1fr 1.15fr;grid-template-areas:"num flags" "num title" "tags tags";padding:20px 0 16px}
+ .hero .hero-facts>div:first-child{grid-area:num;border-right:1px solid #d0ad7540}
+ .hero .hero-facts>div:last-child{display:contents}
+ .hero .hero-facts>div:last-child:before{content:'';grid-area:flags;align-self:end;width:68px;height:30px;margin:0 0 10px 18px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68 30'%3E %3Ccircle cx='15' cy='15' r='13.5' fill='%23da251d' stroke='%23e9cf98' stroke-opacity='.55' stroke-width='1'/%3E %3Cpolygon points='15.00,9.20 16.53,13.50 21.09,13.62 17.47,16.40 18.76,20.78 15.00,18.20 11.24,20.78 12.53,16.40 8.91,13.62 13.47,13.50' fill='%23ffde00'/%3E %3Ccircle cx='53' cy='15' r='13.5' fill='%23fff' stroke='%23e9cf98' stroke-opacity='.55' stroke-width='1'/%3E %3Ccircle cx='53' cy='15' r='5.4' fill='%23bc002d'/%3E %3C/svg%3E") left center/contain no-repeat}
+ .hero .hero-facts>div:last-child strong{grid-area:title;align-self:start;padding:0 18px}
+ .hero .hero-facts>div:last-child small{grid-area:tags;margin:16px 18px 0;padding-top:12px;border-top:1px solid #d0ad7529;text-align:center;font-size:10px;letter-spacing:.16em;text-transform:uppercase}
+}
+/* Stats card: centre both columns so the flags sit squarely over "Việt — Nhật" */
+@media(max-width:700px){
+ .hero .hero-facts>div:first-child{align-items:center;text-align:center}
+ .hero .hero-facts>div:last-child:before{justify-self:center;margin:0 0 10px}
+ .hero .hero-facts>div:last-child strong{justify-self:center;text-align:center}
+}
+
+/* ==========================================================================
+   MOBILE — TITLE SYSTEM: eyebrow (number · rule · label), outlined chapter
+   numeral behind the title, tight bold sans headings with italic serif accents
+   ========================================================================== */
+@media(max-width:700px){
+ main section:not(.hero) .eyebrow{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;margin-bottom:16px;font:600 10.5px/1.5 'Be Vietnam Pro',sans-serif;letter-spacing:.2em;color:var(--accent)}
+ main section:not(.hero) .eyebrow:not(.m-eb):before{content:'';flex:0 0 20px;height:1px;background:currentColor;opacity:.6}
+ main .vision .eyebrow{justify-content:center}
+ main .m-eb .eb-num{font:800 13px/1 Manrope,sans-serif;letter-spacing:.04em;color:var(--ink)}
+ main .m-eb .eb-line{flex:0 0 26px;height:1px;background:var(--accent)}
+ main .legacy .m-eb .eb-num{color:#f4f3ed}
+
+ main [data-num]{position:relative;isolation:isolate}
+ main [data-num]:before{content:attr(data-num);position:absolute;right:-6px;top:-40px;z-index:-1;font:800 132px/1 Manrope,sans-serif;letter-spacing:-.06em;color:transparent;-webkit-text-stroke:1.2px #a47c4140;pointer-events:none}
+ main .legacy [data-num]:before{-webkit-text-stroke-color:#d0ad753d}
+
+ main .section-title h2,main .story h2,main .japan-head h2,main .contact h2{font:800 38px/1.14 Manrope,'Be Vietnam Pro','Noto Sans JP',sans-serif;letter-spacing:-.045em}
+ main .business-intro h3,main .subheading h3,main .multisector-heading h3,main .workforce-copy h3,main .care-editorial h3,main .logistics-copy h4,main .benefits h3,main .product-feature h3{font-family:Manrope,'Be Vietnam Pro','Noto Sans JP',sans-serif;font-weight:800;font-size:28px;line-height:1.18;letter-spacing:-.035em}
+ main h2 em,main h3 em,main h4 em{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:500;font-size:1.05em;letter-spacing:-.005em;padding-right:.06em}
+ html[lang=ja] main h2 em,html[lang=ja] main h3 em,html[lang=ja] main h4 em{font-family:inherit;font-style:normal;font-size:1em;padding-right:0}
+ main .vision h2{font-size:31px;line-height:1.28}
+ main .jp-heading{margin:14px 0 0;font-size:13.5px;line-height:1.8;letter-spacing:.14em;color:#9a8358}
+}
+@media(max-width:700px){
+ main .jp-heading{margin-bottom:18px}
+ main .story>div:first-child .seal{position:absolute;right:2px;top:150px;float:none;margin:0}
+}
+
+/* ==========================================================================
+   CONTACT CARDS — desktop keeps its simple list; phones get business cards
+   ========================================================================== */
+.contact-list .c-ico,.contact-list a small{display:none}
+.contact-list a span,.contact-list a b{font-weight:inherit}
+.contact-list .c-mail b{display:none}
+@media(max-width:700px){
+ .contact-list article{position:relative;overflow:hidden;margin-bottom:14px;padding:24px 18px 18px;border:1px solid #20383314;border-radius:24px;background:#fffdf8;box-shadow:0 24px 44px -30px #203c37b3}
+ .contact-list article:before{content:'';position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,#e32b2b,#d0ad75)}
+ .contact-list article:last-child:before{background:linear-gradient(90deg,#1e88c8,#2bb673,#f2c21b,#f07a22,#e0304f,#8a4fb8)}
+ .contact-list article:after{content:'';position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,#d0ad7524,#d0ad7500 70%);pointer-events:none}
+ .contact-list h3{height:28px;margin:0 0 18px;font-size:0;background:url('assets/logo-nozomi-mark.png') left center/contain no-repeat}
+ .contact-list article:last-child h3{background-image:url('assets/logo-enmusubi-mark.png');height:30px}
+
+ .contact-list a.c-tel,.contact-list a.c-mail{display:grid;grid-template-columns:44px minmax(0,1fr) 40px;align-items:center;gap:12px;margin:0 0 10px;border-radius:18px;transition:transform .2s}
+ .contact-list a.c-tel{height:68px;padding:0 12px 0 12px;background:linear-gradient(135deg,#27493f,#1b332e);color:#fff;box-shadow:0 16px 28px -18px #1b332ecc}
+ .contact-list a.c-mail{height:60px;padding:0 12px;background:#fff;border:1px solid #20383317;color:var(--ink)}
+ .contact-list a:active{transform:scale(.98)}
+ .contact-list .c-ico{position:relative;display:grid;place-items:center;width:44px;height:44px;border-radius:50%}
+ .contact-list .c-ico:before{content:'';width:19px;height:19px;background:currentColor;-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat}
+ .contact-list .c-tel .c-ico{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'/%3E%3C/svg%3E");background:#ffffff17;color:#e9cf98}
+ .contact-list .c-tel .c-ico:after{content:'';position:absolute;inset:0;border-radius:50%;border:1px solid #e9cf98;animation:m-ring 2.4s ease-out infinite}
+ .contact-list .c-mail .c-ico{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2' y='4' width='20' height='16' rx='2'/%3E%3Cpath d='m22 7-10 5L2 7'/%3E%3C/svg%3E");background:#f3eee2;color:#8a6a35}
+ .contact-list a span{display:flex;flex-direction:column;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .contact-list a small{display:block;margin-bottom:4px;font:600 9.5px/1 'Be Vietnam Pro',sans-serif;letter-spacing:.22em}
+ .contact-list .c-tel span{font:700 19px/1.1 Manrope,sans-serif;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+ .contact-list .c-tel small{color:#b8c7bc}
+ .contact-list .c-mail span{font-size:14px;font-weight:500}
+ .contact-list .c-mail small{color:#a08556}
+ .contact-list a b{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;font-size:15px}
+ .contact-list .c-tel b{background:#d0ad75;color:#1b332e}
+ .contact-list .c-mail b{display:grid;background:#f3eee2;color:#8a6a35}
+ .contact-list p.c-place,.contact-list p.c-person{display:flex;gap:10px;align-items:flex-start;margin:14px 0 0;padding-top:14px;border-top:1px dashed #20383322;font-size:13px;line-height:1.6;color:var(--muted)}
+ .contact-list p.c-place:before,.contact-list p.c-person:before{content:'';flex:0 0 18px;height:18px;margin-top:2px;background:#a08556;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center/contain no-repeat}
+ .contact-list p.c-person:before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='8' r='4'/%3E%3Cpath d='M4 21a8 8 0 0 1 16 0'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='8' r='4'/%3E%3Cpath d='M4 21a8 8 0 0 1 16 0'/%3E%3C/svg%3E")}
+}
+@keyframes m-ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.45);opacity:0}}
+@media(max-width:700px){
+ .contact-list a.c-mail{grid-template-columns:40px minmax(0,1fr) 34px;gap:10px;padding:0 10px}
+ .contact-list .c-mail .c-ico{width:40px;height:40px}
+ .contact-list .c-mail span{font-size:13.5px;letter-spacing:-.01em}
+ .contact-list .c-mail b{width:34px;height:34px;border-radius:10px}
+}
+.contact-list a b{margin-left:.3em}
+@media(max-width:700px){.contact-list a b{margin-left:0}}
+/* Contact logos: equal optical weight (the ENMUSUBI mark carries a tagline, so it needs more height) */
+@media(max-width:700px){
+ .contact-list h3{height:26px}
+ .contact-list article:last-child h3{height:32px;margin-bottom:15px}
+}
