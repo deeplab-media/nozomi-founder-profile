@@ -296,7 +296,24 @@
   splash.className='m-splash';splash.setAttribute('aria-hidden','true');
   splash.innerHTML='<span class="m-splash-kanji">縁</span><span class="m-splash-label">TƯỜNG HẢI · FOUNDER PROFILE</span><i class="m-splash-line"></i>';
   document.body.append(splash);
-  setTimeout(()=>{splash.classList.add('out');document.documentElement.classList.remove('m-intro')},1500);
-  setTimeout(()=>splash.remove(),2400);
+  // A swipe or tap skips the splash instead of scrolling the page underneath it,
+  // so visitors always land on the top of the hero.
+  let finished=false;
+  const block=e=>{if(e.cancelable)e.preventDefault()};
+  const onGesture=e=>{block(e);finish()};
+  const release=()=>{removeEventListener('touchmove',onGesture);removeEventListener('wheel',onGesture);removeEventListener('touchend',release)};
+  const finish=()=>{
+   if(finished)return;finished=true;
+   scrollTo({top:0,behavior:'instant'});
+   splash.classList.add('out');document.documentElement.classList.remove('m-intro');
+   setTimeout(()=>splash.remove(),900);
+   // keep blocking until the current gesture ends so it cannot turn into a scroll
+   addEventListener('touchend',release);setTimeout(release,700);
+  };
+  addEventListener('touchmove',onGesture,{passive:false});
+  addEventListener('wheel',onGesture,{passive:false});
+  splash.addEventListener('pointerdown',finish);
+  addEventListener('keydown',finish,{once:true});
+  setTimeout(finish,1500);
  }
 })();
