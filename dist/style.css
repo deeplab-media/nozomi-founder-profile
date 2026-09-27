@@ -591,7 +591,7 @@ html[lang=ja] body{line-break:strict;word-break:auto-phrase}
 @keyframes m-kenburns{from{transform:scale(1)}to{transform:scale(1.1) translate3d(0,-2%,0)}}
 
 /* ----- Opening splash (phones, once per visit) ----- */
-html.m-intro body{overflow:hidden}
+html.m-intro,html.m-intro body{overflow:hidden;overscroll-behavior:none;touch-action:none}
 html.m-intro body:before{content:'';position:fixed;inset:0;z-index:2000;background:#f4f3ed;animation:m-fallback .01s linear 3s forwards}
 @keyframes m-fallback{to{visibility:hidden}}
 .m-splash{position:fixed;inset:0;z-index:2001;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;background:#f4f3ed url('assets/japan-washi.jpg') center/cover;clip-path:inset(0);transition:clip-path .85s cubic-bezier(.77,0,.18,1)}
