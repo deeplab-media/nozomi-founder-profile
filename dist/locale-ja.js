@@ -63,7 +63,7 @@
     ['.hero-bottom span:nth-child(3)', '日越連携'],
     ['.hero-bottom a', 'スクロールしてご覧ください ↓'],
     ['.story h2', '大きなビジョン<br>人から<br><em>始まる</em>'],
-    ['.story-copy .lead', '国際貿易のプロジェクトから、若者の未来を拓く取り組みまで。'],
+    ['.story-copy .lead', '国際貿易から、「持続可能な投資 ― 未来を創る」という理念へ'],
     ['.story-copy>p:nth-of-type(2)', 'グエン・ティ・トゥオン・ハイ氏は、NOZOMI人材育成・キャリア支援会社およびENMUSUBI株式会社の創業者・代表です。30年以上にわたる国際貿易、投資促進、人材育成の経験を基盤に、日越両国の架け橋として活動しています。'],
     ['.story-copy>p:nth-of-type(3)', '人材育成に取り組む以前から、工業、物流、縫製、素材分野における国際協力プロジェクトに携わってきました。日本企業との経験を、実践的な日本語、技能、仕事の姿勢を備えた人材の育成に生かしています。'],
     ['.story-copy blockquote', '「日本を出発点に、NOZOMIの歩みを始めました。」<cite>グエン・ティ・トゥオン・ハイ</cite>'],
@@ -197,7 +197,7 @@
     ['.community-grid article:last-child h3', 'いのちを守る<br>学びの場'],
     ['.community-grid article:last-child>p', '小中学生を対象とした応急手当の教育プログラムです。日常の緊急時に自ら行動できる知識と技能を学びます。'],
     ['.vision h2', '一人ひとりの力が<br>健やかな社会と<br><em>強いチームをつくる</em>'],
-    ['.vision>p:not(.eyebrow)', 'キャリア形成、技能向上、学びへの投資を通じて、若者の未来と健康な社会づくりに貢献します。'],
+    ['.vision>p:not(.eyebrow)', '人材育成でもヘルスケアでも、あらゆる成長は持続可能な価値の上に築かれるべきです。今日の真摯な投資こそが、未来を創る最も確かな一歩だと信じています。'],
     ['.vision .eyebrow', '創業者の想い'],
     ['.japan h2', '日本を知り、<br><em>人と人をつなぐ</em>'],
     ['.japan>div>p:not(.eyebrow):not(.jp-heading)', '日本はハイ氏がNOZOMIを始めた場所です。人々、文化、働く環境との深いつながりが、日越の人材育成への想いにつながっています。'],
@@ -238,7 +238,7 @@
     ,['.product-feature img', 'ENMUSUBI資料掲載のMedicacell Type-I']
     ,['.community-grid .video-thumb img', '地域医療支援プログラムの動画サムネイル']
     ,['#lien-he .contact-list article:first-child>p', 'ホーチミン市カットライ区63番通り21番地']
-    ,['.vision>p:not(.eyebrow)', '職業訓練や技能向上、学びへの投資を通じて、若者の未来と健康な社会づくりに貢献します。']
+    ,['.vision>p:not(.eyebrow)', '人材育成でもヘルスケアでも、あらゆる成長は持続可能な価値の上に築かれるべきです。今日の真摯な投資こそが、未来を創る最も確かな一歩だと信じています。']
     ,['.hero-bottom span:nth-child(1)', '国際貿易']
     ,['.hero-bottom span:nth-child(2)', '人材育成']
     ,['.hero-bottom span:nth-child(3)', '日越連携']
@@ -300,7 +300,7 @@
     ,['.hero-promise', '日本への理解を礎に<br>日越の人材をつなぐ']
     ,['.hero .intro', '30年以上にわたる日本市場での経験を生かし、人と企業が共に成長できる道を築いています。NOZOMIを人材育成の中心に据えています。']
     ,['.overline', '創業者 · 日本市場と30年以上向き合う']
-    ,['.story-copy .lead', '日本市場への理解から、人材をつなぐ新たな取り組みへ。']
+    ,['.story-copy .lead', '国際貿易から、「持続可能な投資 ― 未来を創る」という理念へ']
     ,['.story-copy>p:nth-of-type(2)', '30年以上にわたり日本と関わる中で、企業が求める力と働く人の準備との間にある課題を見つめてきました。その想いからNOZOMIとENMUSUBIを創業。NOZOMIでは、語学、仕事の姿勢、日本文化、職場でのコミュニケーションを大切にした人材育成に取り組んでいます。']
     ,['#dau-an .section-title .eyebrow', '02 / 経験の基盤']
     ,['#dau-an .section-title h2', '経験を<br><em>未来へつなぐ</em>']
@@ -349,13 +349,13 @@
 (() => {
   const storyCopy = document.querySelector('#cau-chuyen .story-copy');
   if (storyCopy) {
-    storyCopy.innerHTML = `<p class="lead">Từ thương mại quốc tế đến chiến lược kiến tạo cầu nối nhân lực</p><p class="story-p2">Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.</p><p class="story-p3">Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.</p><p class="story-p5">Tôi cùng cộng sự định vị NOZOMI sẽ là đối tác trực tiếp, cung cấp nguồn nhân lực đã được chuẩn hóa toàn diện cả về tay nghề lẫn thái độ. Chúng tôi tin rằng, sự đồng hành này sẽ giúp các doanh nghiệp Nhật Bản đang vận hành tại Việt Nam tối ưu được chi phí tuyển dụng, rút ngắn tối đa thời gian đào tạo hội nhập và loại bỏ hoàn toàn những rủi ro về xung đột văn hóa.</p>`;
-    const extra = [...storyCopy.querySelectorAll('.story-p3,.story-p5')];
+    storyCopy.innerHTML = `<p class="lead">Từ thương mại quốc tế đến triết lý “Đầu tư bền vững – Kiến tạo tương lai”</p><p class="story-p2">Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.</p><p class="story-p3">Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.</p><p class="story-p4">Đây là cơ sở để tôi định hướng NOZOMI tập trung vào giá trị bền vững của người lao động. Mục tiêu của chúng tôi là kiến tạo đội ngũ nhân lực làm việc bài bản dựa trên bốn trụ cột: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng cho thuê lại lao động trong nước.</p><p class="story-p5">NOZOMI sẽ là đối tác trực tiếp cung cấp nguồn nhân lực được chuẩn hóa toàn diện, giúp các doanh nghiệp Nhật Bản tại Việt Nam tối ưu chi phí tuyển dụng, rút ngắn thời gian hội nhập và loại bỏ rủi ro do khác biệt văn hóa.</p><p class="story-p6">Tuy nhiên, sức bền ở mỗi người không chỉ nằm ở năng lực làm việc. Thực tế từ đại dịch Covid-19 cho thấy: chúng ta không thể đợi đến khi mắc bệnh mới chữa, mà phải chủ động phòng ngừa từ trước. Đó là lý do tôi phát triển ENMUSUBI với trọng tâm cốt lõi là chăm sóc sức khỏe chủ động. Bởi lẽ, nền tảng thể chất của mỗi người là hoàn toàn khác biệt. Chăm sóc chủ động đúng nghĩa không phải là áp dụng một công thức đại trà, mà là sự thấu hiểu chính xác cơ thể mình cần gì để nuôi dưỡng, bảo vệ và duy trì sinh lực dài lâu.</p><p class="story-p7">Dù ở lĩnh vực đào tạo nhân sự hay chăm sóc sức khỏe, triết lý vận hành của tôi luôn nhất quán: mọi sự phát triển đều phải dựa trên những giá trị <em>bền vững</em>. Tôi tin rằng, sự đầu tư nghiêm túc này chính là bước đi thực tế nhất để <em>kiến tạo tương lai</em>.</p>`;
+    const extra = [...storyCopy.querySelectorAll('.story-p3,.story-p4,.story-p5,.story-p6,.story-p7')];
     const more = document.createElement('details');
     more.className = 'story-more';
     more.open = window.matchMedia('(min-width:701px)').matches;
     const summary = document.createElement('summary');
-    summary.textContent = 'Xem thêm nền tảng và định hướng';
+    summary.textContent = 'Đọc tiếp câu chuyện';
     more.append(summary, ...extra);
     storyCopy.append(more);
   }
@@ -424,9 +424,12 @@
       const setStory = (selector, vi, jaText) => { const node = document.querySelector(selector); if (node) node.innerHTML = ja ? jaText : vi; };
       setStory('#cau-chuyen .story-p2', 'Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.', '私にとって、NOZOMI人材育成・キャリア支援会社とENMUSUBI株式会社の設立は、新しい方向への転換ではありません。30年以上にわたり日本市場と向き合う中で抱いた課題意識から生まれたものです。');
       setStory('#cau-chuyen .story-p3', 'Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.', '国際貿易のプロジェクトづくりや投資促進に直接携わり、工業、物流、縫製、素材分野で経験を重ねてきました。そこから、現在の労働市場だけでは応えきれない、総合的な人材への大きな需要と厳しい要件を実感しました。');
-      setStory('#cau-chuyen .story-p4', 'Đây là cơ sở để tôi đặt định hướng phát triển cho thương hiệu NOZOMI với mục tiêu kiến tạo một đội ngũ nhân lực làm việc bài bản, dựa trên bốn trụ cột gắn kết chặt chẽ gồm: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng lại ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng đào tạo và cho thuê lại lao động trong nước.', 'これを基盤に、NOZOMIでは外国語、仕事の姿勢、日本文化、職場でのコミュニケーションという四つの柱を結び、確かな人材を育てる方向性を定めました。日本への人材送り出しにとどまらず、国内での人材育成と人材サービスにも広げています。');
-      setStory('#cau-chuyen .story-p5', 'Tôi cùng cộng sự định vị NOZOMI sẽ là đối tác trực tiếp, cung cấp nguồn nhân lực đã được chuẩn hóa toàn diện cả về tay nghề lẫn thái độ. Chúng tôi tin rằng, sự đồng hành này sẽ giúp các doanh nghiệp Nhật Bản đang vận hành tại Việt Nam tối ưu được chi phí tuyển dụng, rút ngắn tối đa thời gian đào tạo hội nhập và loại bỏ hoàn toàn những rủi ro về xung đột văn hóa.', '私たちはNOZOMIを、技能と姿勢の両面を備えた人材を企業へ直接届けるパートナーと位置づけています。ベトナムで活動する日本企業の採用コストを抑え、受け入れまでの時間を短縮し、文化の違いによる行き違いを減らすことを目指します。');
-      set('.story-more summary', '背景と方向性を詳しく見る');
+      setStory('#cau-chuyen .story-p4', 'Đây là cơ sở để tôi định hướng NOZOMI tập trung vào giá trị bền vững của người lao động. Mục tiêu của chúng tôi là kiến tạo đội ngũ nhân lực làm việc bài bản dựa trên bốn trụ cột: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng cho thuê lại lao động trong nước.', 'これを基盤に、NOZOMIでは働く人の持続的な価値を大切にする方向性を定めました。目指すのは、外国語、仕事の姿勢、日本文化、職場でのマナーという四つの柱に基づき、きちんと働ける人材を育てることです。この取り組みは日本への人材送り出しにとどまらず、国内での人材派遣にも広がっています。');
+      setStory('#cau-chuyen .story-p5', 'NOZOMI sẽ là đối tác trực tiếp cung cấp nguồn nhân lực được chuẩn hóa toàn diện, giúp các doanh nghiệp Nhật Bản tại Việt Nam tối ưu chi phí tuyển dụng, rút ngắn thời gian hội nhập và loại bỏ rủi ro do khác biệt văn hóa.', 'NOZOMIは、総合的に育成された人材を直接お届けするパートナーとして、ベトナムで事業を行う日本企業の採用コストの最適化、定着までの期間短縮、文化の違いによるリスクの解消に貢献します。');
+      setStory('#cau-chuyen .story-p6', 'Tuy nhiên, sức bền ở mỗi người không chỉ nằm ở năng lực làm việc. Thực tế từ đại dịch Covid-19 cho thấy: chúng ta không thể đợi đến khi mắc bệnh mới chữa, mà phải chủ động phòng ngừa từ trước. Đó là lý do tôi phát triển ENMUSUBI với trọng tâm cốt lõi là chăm sóc sức khỏe chủ động. Bởi lẽ, nền tảng thể chất của mỗi người là hoàn toàn khác biệt. Chăm sóc chủ động đúng nghĩa không phải là áp dụng một công thức đại trà, mà là sự thấu hiểu chính xác cơ thể mình cần gì để nuôi dưỡng, bảo vệ và duy trì sinh lực dài lâu.', 'しかし、人の「持続力」は仕事の能力だけで決まるものではありません。新型コロナウイルスの流行は、病気になってから治すのではなく、事前に予防することの大切さを教えてくれました。だからこそ私は、予防的なヘルスケアを中核に据えてENMUSUBIを育ててきました。体の土台は一人ひとり異なります。本当の予防とは画一的な方法を当てはめることではなく、自分の体が何を必要としているのかを正しく理解し、健やかさを育み、守り、長く保つことだと考えています。');
+      setStory('#cau-chuyen .story-p7', 'Dù ở lĩnh vực đào tạo nhân sự hay chăm sóc sức khỏe, triết lý vận hành của tôi luôn nhất quán: mọi sự phát triển đều phải dựa trên những giá trị <em>bền vững</em>. Tôi tin rằng, sự đầu tư nghiêm túc này chính là bước đi thực tế nhất để <em>kiến tạo tương lai</em>.', '人材育成でもヘルスケアでも、私の経営理念は一貫しています。あらゆる成長は<em>「持続可能な価値」</em>の上に築かれるべきだということ。こうした真摯な投資こそが、<em>「未来を創る」</em>ための最も確かな一歩だと信じています。');
+      setStory('#cau-chuyen .story-copy>.lead', 'Từ thương mại quốc tế đến triết lý “Đầu tư bền vững – Kiến tạo tương lai”', '国際貿易から、「持続可能な投資 ― 未来を創る」という理念へ');
+      set('.story-more summary', '続きを読む');
       set('#nozomi .mission-note', 'NOZOMIでは、外国語、仕事の姿勢、日本文化、職場でのコミュニケーションという四つの柱を基盤に人材を育成し、国内外の企業との人材連携へ広げています。');
       set('#nozomi .learning-details summary', '人材育成のステップを見る');
       set('#enmusubi .medical-details summary', '医療とケアの内容を詳しく見る');
