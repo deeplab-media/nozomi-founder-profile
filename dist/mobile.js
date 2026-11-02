@@ -112,7 +112,7 @@
   }
  });
 
- /* ---------- NOZOMI activity photos: swipeable card stack ---------- */
+ /* ---------- NOZORA activity photos: swipeable card stack ---------- */
  const stack=document.querySelector('#nozomi .nozomi-gallery>.nozomi-photo-grid');
  if(stack){
   const cards=[...stack.children];

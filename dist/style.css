@@ -714,7 +714,7 @@ html.m-intro body:before{content:'';position:fixed;inset:0;z-index:2000;backgrou
  .contact-list article:before{content:'';position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,#e32b2b,#d0ad75)}
  .contact-list article:last-child:before{background:linear-gradient(90deg,#1e88c8,#2bb673,#f2c21b,#f07a22,#e0304f,#8a4fb8)}
  .contact-list article:after{content:'';position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,#d0ad7524,#d0ad7500 70%);pointer-events:none}
- .contact-list h3{height:28px;margin:0 0 18px;font-size:0;background:url('assets/logo-nozomi-mark.png') left center/contain no-repeat}
+ .contact-list h3{height:28px;margin:0 0 18px;font-size:0;background:url('assets/logo-nozora-mark.png') left center/contain no-repeat}
  .contact-list article:last-child h3{background-image:url('assets/logo-enmusubi-mark.png');height:30px}
 
  .contact-list a.c-tel,.contact-list a.c-mail{display:grid;grid-template-columns:44px minmax(0,1fr) 40px;align-items:center;gap:12px;margin:0 0 10px;border-radius:18px;transition:transform .2s}
@@ -750,6 +750,6 @@ html.m-intro body:before{content:'';position:fixed;inset:0;z-index:2000;backgrou
 @media(max-width:700px){.contact-list a b{margin-left:0}}
 /* Contact logos: equal optical weight (the ENMUSUBI mark carries a tagline, so it needs more height) */
 @media(max-width:700px){
- .contact-list h3{height:26px}
+ .contact-list h3{height:35px}
  .contact-list article:last-child h3{height:32px;margin-bottom:15px}
 }
