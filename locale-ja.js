@@ -73,10 +73,10 @@
     ['#he-sinh-thai .section-title h2', '二つの企業<br><em>一つの日越の未来</em>'],
     ['#he-sinh-thai .section-title>div>.jp-heading', '二つの企業、一つのつながる未来。'],
     ['#he-sinh-thai .section-title>div+ p', 'NOZORAは質の高い人材を育成し、ENMUSUBIは企業連携と予防的ヘルスケアを通じて日越をつなぎます。それぞれ異なる事業を展開し、グエン・ティ・トゥオン・ハイ氏が創業しました。'],
-    ['.company-switch a:first-child span', '01 / 人材育成・キャリア支援<small>日本語教育・人材育成</small>'],
+    ['.company-switch a:first-child span', '01 / NOZORA（旧NOZOMI）人材育成・キャリア支援会社<small>日本語教育・人材育成</small>'],
     ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
     ['.chapter-hint', 'スクロールして各事業をご覧ください ↓'],
-    ['#nozomi .business-intro .eyebrow', 'NOZORA / 人材育成・キャリア支援'],
+    ['#nozomi .business-intro .eyebrow', 'NOZORA（旧NOZOMI）/ 人材育成・キャリア支援'],
     ['#enmusubi .business-intro .eyebrow', 'ENMUSUBI / 日越連携・ヘルスケア'],
     ['#nozomi .business-intro h3', '日本語を学び、<br>日本の仕事を知り、<br><em>未来をつくる</em>'],
     ['#nozomi .business-intro .jp-heading', '日本語と日本の仕事の姿勢を学び、未来へ。'],
@@ -87,7 +87,7 @@
     ['.logistics-copy .eyebrow', '重点分野 · 物流'],
     ['.logistics-copy h4', '物流分野の人材を育成<br><em>現場で生きる力を</em>'],
     ['.logistics-copy>p:not(.eyebrow):not(.ai-disclosure)', '専門用語、日本の仕事の姿勢、安全への意識、実践的な技能を身につけ、物流分野で長く活躍できる人材を育てます。'],
-    ['.company-switch a:first-child>span', '01 / 人材育成・キャリア支援<small>日本語教育・人材育成</small>'],
+    ['.company-switch a:first-child>span', '01 / NOZORA（旧NOZOMI）人材育成・キャリア支援会社<small>日本語教育・人材育成</small>'],
     ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
     ['#dau-an .section-title .eyebrow', '02 / 主な実績'],
     ['#he-sinh-thai .section-title .eyebrow', '03 / 事業と使命'],
@@ -227,7 +227,7 @@
     ,['.vision>span', 'グエン・ティ・トゥオン・ハイ']
     ,['.japan-signature small', '人と人をつなぎ、共に成長する']
     ,['.business-chapter>.business-intro .eyebrow', '日越をつなぐ事業']
-    ,['#nozomi>.business-intro .eyebrow', 'NOZORA / 人材育成・キャリア支援']
+    ,['#nozomi>.business-intro .eyebrow', 'NOZORA（旧NOZOMI）/ 人材育成・キャリア支援']
     ,['#enmusubi>.business-intro .eyebrow', 'ENMUSUBI / 日越連携・ヘルスケア']
     ,['#enmusubi .business-intro figcaption', '医療連携に関する資料']
     ,['.health-mosaic img', '日本での医療相談・連携に関する資料']
@@ -298,7 +298,7 @@
     ,['.nozomi-more .nozomi-photo-grid figure:nth-child(12) figcaption', 'NOZORAの受講生とスタッフ']
 
     ,['.hero-promise', '日本への理解を礎に<br>日越の人材をつなぐ']
-    ,['.hero .intro', '30年以上にわたる日本市場での経験を生かし、人と企業が共に成長できる道を築いています。NOZORAを人材育成の中心に据えています。']
+    ,['.hero .intro', '30年以上にわたる日本市場での経験を生かし、人と企業が共に成長できる道を築いています。NOZORA（旧NOZOMI）を人材育成の中心に据えています。']
     ,['.overline', '創業者 · 日本市場と30年以上向き合う']
     ,['.story-copy .lead', '国際貿易から、「持続可能な投資 ― 未来を創る」という理念へ']
     ,['.story-copy>p:nth-of-type(2)', '30年以上にわたり日本と関わる中で、企業が求める力と働く人の準備との間にある課題を見つめてきました。その想いからNOZORAとENMUSUBIを創業。NOZORAでは、語学、仕事の姿勢、日本文化、職場でのコミュニケーションを大切にした人材育成に取り組んでいます。']
