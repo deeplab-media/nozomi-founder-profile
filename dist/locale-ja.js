@@ -64,7 +64,7 @@
     ['.hero-bottom a', 'スクロールしてご覧ください ↓'],
     ['.story h2', '大きなビジョン<br>人から<br><em>始まる</em>'],
     ['.story-copy .lead', '国際貿易から、「持続可能な投資 ― 未来を創る」という理念へ'],
-    ['.story-copy>p:nth-of-type(2)', 'グエン・ティ・トゥオン・ハイ氏は、NOZORA人材育成・キャリア支援会社およびENMUSUBI株式会社の創業者・代表です。30年以上にわたる国際貿易、投資促進、人材育成の経験を基盤に、日越両国の架け橋として活動しています。'],
+    ['.story-copy>p:nth-of-type(2)', 'グエン・ティ・トゥオン・ハイ氏は、NOZOMI人材育成・キャリア支援会社およびENMUSUBI株式会社の創業者・代表です。30年以上にわたる国際貿易、投資促進、人材育成の経験を基盤に、日越両国の架け橋として活動しています。'],
     ['.story-copy>p:nth-of-type(3)', '人材育成に取り組む以前から、工業、物流、縫製、素材分野における国際協力プロジェクトに携わってきました。日本企業との経験を、実践的な日本語、技能、仕事の姿勢を備えた人材の育成に生かしています。'],
     ['.story-copy blockquote', '「日本を出発点に、NOZORAの歩みを始めました。」<cite>グエン・ティ・トゥオン・ハイ</cite>'],
     ['#cau-chuyen .eyebrow', '創業者プロフィール'],
@@ -73,10 +73,10 @@
     ['#he-sinh-thai .section-title h2', '二つの企業<br><em>一つの日越の未来</em>'],
     ['#he-sinh-thai .section-title>div>.jp-heading', '二つの企業、一つのつながる未来。'],
     ['#he-sinh-thai .section-title>div+ p', 'NOZORAは質の高い人材を育成し、ENMUSUBIは企業連携と予防的ヘルスケアを通じて日越をつなぎます。それぞれ異なる事業を展開し、グエン・ティ・トゥオン・ハイ氏が創業しました。'],
-    ['.company-switch a:first-child span', '01 / 人材育成・キャリア支援会社<small>旧NOZOMI</small>'],
+    ['.company-switch a:first-child span', '01 / NOZOMI人材育成・キャリア支援会社<small>日本語教育・人材育成</small>'],
     ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
     ['.chapter-hint', 'スクロールして各事業をご覧ください ↓'],
-    ['#nozomi .business-intro .eyebrow', 'NOZORA（旧NOZOMI）/ 人材育成・キャリア支援'],
+    ['#nozomi .business-intro .eyebrow', 'NOZOMI / 人材育成・キャリア支援'],
     ['#enmusubi .business-intro .eyebrow', 'ENMUSUBI / 日越連携・ヘルスケア'],
     ['#nozomi .business-intro h3', '日本語を学び、<br>日本の仕事を知り、<br><em>未来をつくる</em>'],
     ['#nozomi .business-intro .jp-heading', '日本語と日本の仕事の姿勢を学び、未来へ。'],
@@ -87,7 +87,7 @@
     ['.logistics-copy .eyebrow', '重点分野 · 物流'],
     ['.logistics-copy h4', '物流分野の人材を育成<br><em>現場で生きる力を</em>'],
     ['.logistics-copy>p:not(.eyebrow):not(.ai-disclosure)', '専門用語、日本の仕事の姿勢、安全への意識、実践的な技能を身につけ、物流分野で長く活躍できる人材を育てます。'],
-    ['.company-switch a:first-child>span', '01 / 人材育成・キャリア支援会社<small>旧NOZOMI</small>'],
+    ['.company-switch a:first-child>span', '01 / NOZOMI人材育成・キャリア支援会社<small>日本語教育・人材育成</small>'],
     ['.company-switch a:last-child span', '02 / 日越連携・ヘルスケア<small>企業連携・予防医療</small>'],
     ['#dau-an .section-title .eyebrow', '02 / 主な実績'],
     ['#he-sinh-thai .section-title .eyebrow', '03 / 事業と使命'],
@@ -227,7 +227,7 @@
     ,['.vision>span', 'グエン・ティ・トゥオン・ハイ']
     ,['.japan-signature small', '人と人をつなぎ、共に成長する']
     ,['.business-chapter>.business-intro .eyebrow', '日越をつなぐ事業']
-    ,['#nozomi>.business-intro .eyebrow', 'NOZORA（旧NOZOMI）/ 人材育成・キャリア支援']
+    ,['#nozomi>.business-intro .eyebrow', 'NOZOMI / 人材育成・キャリア支援']
     ,['#enmusubi>.business-intro .eyebrow', 'ENMUSUBI / 日越連携・ヘルスケア']
     ,['#enmusubi .business-intro figcaption', '医療連携に関する資料']
     ,['.health-mosaic img', '日本での医療相談・連携に関する資料']
@@ -298,7 +298,7 @@
     ,['.nozomi-more .nozomi-photo-grid figure:nth-child(12) figcaption', 'NOZORAの受講生とスタッフ']
 
     ,['.hero-promise', '日本への理解を礎に<br>日越の人材をつなぐ']
-    ,['.hero .intro', '30年以上にわたる日本市場での経験を生かし、人と企業が共に成長できる道を築いています。NOZORA（旧NOZOMI）を人材育成の中心に据えています。']
+    ,['.hero .intro', '30年以上にわたる日本市場での経験を生かし、人と企業が共に成長できる道を築いています。NOZORAを人材育成の中心に据えています。']
     ,['.overline', '創業者 · 日本市場と30年以上向き合う']
     ,['.story-copy .lead', '国際貿易から、「持続可能な投資 ― 未来を創る」という理念へ']
     ,['.story-copy>p:nth-of-type(2)', '30年以上にわたり日本と関わる中で、企業が求める力と働く人の準備との間にある課題を見つめてきました。その想いからNOZORAとENMUSUBIを創業。NOZORAでは、語学、仕事の姿勢、日本文化、職場でのコミュニケーションを大切にした人材育成に取り組んでいます。']
@@ -349,7 +349,7 @@
 (() => {
   const storyCopy = document.querySelector('#cau-chuyen .story-copy');
   if (storyCopy) {
-    storyCopy.innerHTML = `<p class="lead">Từ thương mại quốc tế đến triết lý “Đầu tư bền vững – Kiến tạo tương lai”</p><p class="story-p2">Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZORA và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.</p><p class="story-p3">Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.</p><p class="story-p4">Đây là cơ sở để tôi định hướng NOZORA tập trung vào giá trị bền vững của người lao động. Mục tiêu của chúng tôi là kiến tạo đội ngũ nhân lực làm việc bài bản dựa trên bốn trụ cột: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng cho thuê lại lao động trong nước.</p><p class="story-p5">NOZORA sẽ là đối tác trực tiếp cung cấp nguồn nhân lực được chuẩn hóa toàn diện, giúp các doanh nghiệp Nhật Bản tại Việt Nam tối ưu chi phí tuyển dụng, rút ngắn thời gian hội nhập và loại bỏ rủi ro do khác biệt văn hóa.</p><p class="story-p6">Tuy nhiên, sức bền ở mỗi người không chỉ nằm ở năng lực làm việc. Thực tế từ đại dịch Covid-19 cho thấy: chúng ta không thể đợi đến khi mắc bệnh mới chữa, mà phải chủ động phòng ngừa từ trước. Đó là lý do tôi phát triển ENMUSUBI với trọng tâm cốt lõi là chăm sóc sức khỏe chủ động. Bởi lẽ, nền tảng thể chất của mỗi người là hoàn toàn khác biệt. Chăm sóc chủ động đúng nghĩa không phải là áp dụng một công thức đại trà, mà là sự thấu hiểu chính xác cơ thể mình cần gì để nuôi dưỡng, bảo vệ và duy trì sinh lực dài lâu.</p><p class="story-p7">Dù ở lĩnh vực đào tạo nhân sự hay chăm sóc sức khỏe, triết lý vận hành của tôi luôn nhất quán: mọi sự phát triển đều phải dựa trên những giá trị <em>bền vững</em>. Tôi tin rằng, sự đầu tư nghiêm túc này chính là bước đi thực tế nhất để <em>kiến tạo tương lai</em>.</p>`;
+    storyCopy.innerHTML = `<p class="lead">Từ thương mại quốc tế đến triết lý “Đầu tư bền vững – Kiến tạo tương lai”</p><p class="story-p2">Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.</p><p class="story-p3">Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.</p><p class="story-p4">Đây là cơ sở để tôi định hướng NOZORA tập trung vào giá trị bền vững của người lao động. Mục tiêu của chúng tôi là kiến tạo đội ngũ nhân lực làm việc bài bản dựa trên bốn trụ cột: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng cho thuê lại lao động trong nước.</p><p class="story-p5">NOZORA sẽ là đối tác trực tiếp cung cấp nguồn nhân lực được chuẩn hóa toàn diện, giúp các doanh nghiệp Nhật Bản tại Việt Nam tối ưu chi phí tuyển dụng, rút ngắn thời gian hội nhập và loại bỏ rủi ro do khác biệt văn hóa.</p><p class="story-p6">Tuy nhiên, sức bền ở mỗi người không chỉ nằm ở năng lực làm việc. Thực tế từ đại dịch Covid-19 cho thấy: chúng ta không thể đợi đến khi mắc bệnh mới chữa, mà phải chủ động phòng ngừa từ trước. Đó là lý do tôi phát triển ENMUSUBI với trọng tâm cốt lõi là chăm sóc sức khỏe chủ động. Bởi lẽ, nền tảng thể chất của mỗi người là hoàn toàn khác biệt. Chăm sóc chủ động đúng nghĩa không phải là áp dụng một công thức đại trà, mà là sự thấu hiểu chính xác cơ thể mình cần gì để nuôi dưỡng, bảo vệ và duy trì sinh lực dài lâu.</p><p class="story-p7">Dù ở lĩnh vực đào tạo nhân sự hay chăm sóc sức khỏe, triết lý vận hành của tôi luôn nhất quán: mọi sự phát triển đều phải dựa trên những giá trị <em>bền vững</em>. Tôi tin rằng, sự đầu tư nghiêm túc này chính là bước đi thực tế nhất để <em>kiến tạo tương lai</em>.</p>`;
     const extra = [...storyCopy.querySelectorAll('.story-p3,.story-p4,.story-p5,.story-p6,.story-p7')];
     const more = document.createElement('details');
     more.className = 'story-more';
@@ -422,7 +422,7 @@
       const setAlt = (selector, text) => { const node = document.querySelector(selector); if (!node) return; if (!customOriginal.has(node)) customOriginal.set(node, node.alt); node.alt = ja ? text : customOriginal.get(node); };
       set('#dau-an .experience-summary .lead', '国際貿易と投資促進、多分野の経験を人材育成へ');
       const setStory = (selector, vi, jaText) => { const node = document.querySelector(selector); if (node) node.innerHTML = ja ? jaText : vi; };
-      setStory('#cau-chuyen .story-p2', 'Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZORA và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.', '私にとって、NOZORA人材育成・キャリア支援会社とENMUSUBI株式会社の設立は、新しい方向への転換ではありません。30年以上にわたり日本市場と向き合う中で抱いた課題意識から生まれたものです。');
+      setStory('#cau-chuyen .story-p2', 'Với tôi, việc sáng lập Công ty Đào tạo & Hướng nghiệp NOZOMI và Công ty Cổ phần ENMUSUBI không phải hướng đi mới, mà xuất phát từ những trăn trở sau hơn 30 năm gắn bó với thị trường Nhật Bản.', '私にとって、NOZOMI人材育成・キャリア支援会社とENMUSUBI株式会社の設立は、新しい方向への転換ではありません。30年以上にわたり日本市場と向き合う中で抱いた課題意識から生まれたものです。');
       setStory('#cau-chuyen .story-p3', 'Tôi từng trực tiếp tham gia xây dựng các dự án thương mại quốc tế, xúc tiến đầu tư trong mảng công nghiệp, logistics, may mặc và vật liệu. Chính từ đó, tôi nhận thấy nhu cầu rất lớn cùng những yêu cầu khắt khe về một nguồn nhân lực toàn diện mà thị trường lao động hiện tại chưa thể đáp ứng.', '国際貿易のプロジェクトづくりや投資促進に直接携わり、工業、物流、縫製、素材分野で経験を重ねてきました。そこから、現在の労働市場だけでは応えきれない、総合的な人材への大きな需要と厳しい要件を実感しました。');
       setStory('#cau-chuyen .story-p4', 'Đây là cơ sở để tôi định hướng NOZORA tập trung vào giá trị bền vững của người lao động. Mục tiêu của chúng tôi là kiến tạo đội ngũ nhân lực làm việc bài bản dựa trên bốn trụ cột: ngoại ngữ, tác phong, văn hóa Nhật Bản và văn hóa ứng xử công sở. Tầm nhìn chiến lược này không chỉ dừng ở việc cung ứng nhân sự sang Nhật, mà còn mở rộng sang mảng cho thuê lại lao động trong nước.', 'これを基盤に、NOZORAでは働く人の持続的な価値を大切にする方向性を定めました。目指すのは、外国語、仕事の姿勢、日本文化、職場でのマナーという四つの柱に基づき、きちんと働ける人材を育てることです。この取り組みは日本への人材送り出しにとどまらず、国内での人材派遣にも広がっています。');
       setStory('#cau-chuyen .story-p5', 'NOZORA sẽ là đối tác trực tiếp cung cấp nguồn nhân lực được chuẩn hóa toàn diện, giúp các doanh nghiệp Nhật Bản tại Việt Nam tối ưu chi phí tuyển dụng, rút ngắn thời gian hội nhập và loại bỏ rủi ro do khác biệt văn hóa.', 'NOZORAは、総合的に育成された人材を直接お届けするパートナーとして、ベトナムで事業を行う日本企業の採用コストの最適化、定着までの期間短縮、文化の違いによるリスクの解消に貢献します。');
@@ -454,6 +454,8 @@
       setAlt('#enmusubi .lab-gallery-grid figure:nth-child(2) img', '顕微鏡で研究を行う研究者');
       setAlt('#enmusubi .lab-gallery-grid figure:nth-child(3) img', '標準的な研究室で管理される検体');
     };
+    // Snapshot the Vietnamese text now: on first click the earlier translation pass has already replaced it.
+    setNewJapanese();
     toggle.addEventListener('click', setNewJapanese);
   }
 })();
