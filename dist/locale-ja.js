@@ -208,8 +208,8 @@
     ['#lien-he>div:first-child>p:last-child', '人材育成、予防的ヘルスケア、日越企業連携についてお問い合わせください。'],
     ['#lien-he .contact-list article:first-child h3', 'NOZORA 人材育成'],
     ['#lien-he .contact-list article:last-child h3', 'ENMUSUBI 日越連携'],
-    ['#lien-he .contact-list article:first-child>p', 'ホーチミン市カットライ区63番通り 21番地'],
-    ['#lien-he .contact-list article:last-child>p', 'クエン · ご相談・連携'],
+    ['#lien-he .contact-list article:first-child>p', 'ホーチミン市タインミータイ坊 タンカン通り19–21 Vistaビル5階'],
+    ['#lien-he .contact-list article:last-child>p', 'ホーチミン市タインミータイ坊 タンカン通り19–21 Vistaビル5階'],
     ['footer>span', 'グエン・ティ・トゥオン・ハイ <small>創業者プロフィール / 2026</small>'],
     ['.source-note', '提供資料をもとに編集しています。詳しい内容は関係機関へご確認ください。'],
     ['footer>a', 'ページ上部へ ↑']
@@ -223,7 +223,7 @@
     ,['.care-editorial img', '日本の医療相談とケアを結ぶイメージ']
     ,['.community-grid .video-thumb img', '地域医療支援プログラムの動画サムネイル']
     ,['.japan .jp-heading', '文化を理解し、人をつなぐ']
-    ,['#lien-he .contact-list article:last-child>p', 'クエン · ご相談・連携']
+    ,['#lien-he .contact-list article:last-child>p', 'ホーチミン市タインミータイ坊 タンカン通り19–21 Vistaビル5階']
     ,['.vision>span', 'グエン・ティ・トゥオン・ハイ']
     ,['.japan-signature small', '人と人をつなぎ、共に成長する']
     ,['.business-chapter>.business-intro .eyebrow', '日越をつなぐ事業']
@@ -237,7 +237,7 @@
     ,['#enmusubi .business-intro figure img', 'ENMUSUBIの医療連携資料']
     ,['.product-feature img', 'ENMUSUBI資料掲載のMedicacell Type-I']
     ,['.community-grid .video-thumb img', '地域医療支援プログラムの動画サムネイル']
-    ,['#lien-he .contact-list article:first-child>p', 'ホーチミン市カットライ区63番通り21番地']
+    ,['#lien-he .contact-list article:first-child>p', 'ホーチミン市タインミータイ坊 タンカン通り19–21 Vistaビル5階']
     ,['.vision>p:not(.eyebrow)', '人材育成でもヘルスケアでも、あらゆる成長は持続可能な価値の上に築かれるべきです。今日の真摯な投資こそが、未来を創る最も確かな一歩だと信じています。']
     ,['.hero-bottom span:nth-child(1)', '国際貿易']
     ,['.hero-bottom span:nth-child(2)', '人材育成']
